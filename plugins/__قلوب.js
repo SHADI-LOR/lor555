@@ -17,7 +17,7 @@ let handler = async (m, { conn, isGroup, isAdmin, isBotAdmin, sender, text }) =>
     if (!isGroup) return;
 
     // بدء اللعبة
-    if (text === ".ابدأ" && isAdmin && !gameStarted) {
+    if (text === "ابدا-قلوب" && isAdmin && !gameStarted) {
         gameStarted = true;
         admin = sender;
         await conn.sendMessage(m.chat, "بدأت اللعبة الآن!", m);
@@ -57,5 +57,5 @@ let handler = async (m, { conn, isGroup, isAdmin, isBotAdmin, sender, text }) =>
     }
 };
 
-handler.command = [/^\.(ابدأ|اضافه-عضو|قلب)$/i];
+handler.command = [/^\.(ابدا-قلوب|اضافه-عضو|قلب)$/i];
 export default handler;
