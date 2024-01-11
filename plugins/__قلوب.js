@@ -9,7 +9,7 @@ function createPlayerList() {
     for (let player in players) {
         list += `*${player} ⇐ ❪${'❤️'.repeat(players[player])}❫*\n`;
     }
-    list += "\n*◉━━─ ─ ⊱ ❪🌊❫ ⊰ ─ ─━━◉*\n*✧┃𝐄𝐀𝐒𝐓﹝🌊﹞𝐖𝐀𝐕𝐄𝐒┃✧*";
+    list += "\n*◉━━─ ─ ⊱ ❪🌊❫ ⊰ ─ ─━━◉*\n*✧┃𝐕𝐄𝐍𝐎𝐌﹝🌊﹞𝐒𝐎𝐔𝐊𝐍𝐀┃✧*";
     return list;
 }
 
@@ -28,7 +28,7 @@ let handler = async (m, { conn, isGroup, isAdmin, isBotAdmin, sender, text }) =>
     if (text.startsWith(".اضافه-عضو") && sender === admin) {
         let mentioned = m.mentionedJid && m.mentionedJid[0];
         if (!mentioned) {
-            await conn.sendMessage(m.chat, "يرجى الإشارة إلى لاعب.", m);
+            await conn.sendMessage(m.chat, "يرجى الإشارة إلى لاعب.", m)
             return;
         }
         players[mentioned] = 0; // إضافة اللاعب
