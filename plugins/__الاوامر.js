@@ -155,6 +155,13 @@ ${global.amrr}عميق
 ${global.amrr}بطيء
 ${global.amrr}سريع
 ${global.sham}
+⩥💜│حصرياً│💜⩤
+${global.sham}
+${global.amrr}لقب
+${global.amrr}لقبه
+${global.amrr}الألقاب
+${global.amrr}جيب
+${global.sham}
 
 `
 
