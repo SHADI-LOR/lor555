@@ -6,7 +6,7 @@ import path, { join } from 'path'
 import { unwatchFile, watchFile } from 'fs'
 import chalk from 'chalk'   
 import fetch from 'node-fetch' 
- 
+
 /**
  * @type {import('@adiwajshing/baileys')}  
  */
@@ -65,7 +65,7 @@ if (!('registered' in user)) user.registered = false
 if (!('registroR' in user)) user.registroR = false
 if (!('registroC' in user)) user.registroC = false  
 if (!isNumber(user.IDregister)) user.IDregister = 0 
-	
+
 if (!user.registered) {
 if (!('name' in user)) user.name = m.name
 if (!('age' in user)) user.age = m.age
@@ -75,7 +75,6 @@ if (!('identidad' in user)) user.identidad = m.identidad
 if (!('pasatiempo' in user)) user.pasatiempo = m.pasatiempo
 if (!('tiempo' in user)) user.tiempo = m.tiempo
 if (!('miestado' in user)) user.miestado = m.miestado	
-if (!('midLanguage' in user)) user.midLanguage = m.midLanguage
 if (!isNumber(user.premLimit)) user.premLimit = 0
 if (!isNumber(user.anggur)) user.anggur = 0
 if (!isNumber(user.apel)) user.apel = 0
@@ -95,7 +94,7 @@ if (!isNumber(user.regTime)) user.regTime = -1
 if (!isNumber(user.semangka)) user.semangka = 0
 if (!isNumber(user.stroberi)) user.stroberi = 0
 }
-	
+
 if (!isNumber(user.counterPrivate)) user.counterPrivate = 0	                    		    
 if (!isNumber(user.afk)) user.afk = -1
 //if (!('autolevelup' in user))  user.autolevelup = true
@@ -503,7 +502,6 @@ if (!user.premium) user.premiumTime = 0
 if (!user.rtrofi) user.rtrofi = 'Bronce'
 } else
 global.db.data.users[m.sender] = {
-midLanguage: 0,
 counterPrivate: 0,
 afk: -1,
 afkReason: '',
@@ -945,7 +943,7 @@ soal: null
 let chat = global.db.data.chats[m.chat]
 if (typeof chat !== 'object')
 global.db.data.chats[m.chat] = {}
-		
+
 if (chat) {
 if (!('isBanned' in chat)) chat.isBanned = false                    
 if (!('welcome' in chat)) chat.welcome = true                    
@@ -954,8 +952,9 @@ if (!('sWelcome' in chat)) chat.sWelcome = ''
 if (!('sBye' in chat)) chat.sBye = ''                    
 if (!('sPromote' in chat)) chat.sPromote = ''                    
 if (!('sDemote' in chat)) chat.sDemote = '' 
-if (!('delete' in chat)) chat.delete = false                   
-if (!('modohorny' in chat)) chat.modohorny = true                    
+if (!('delete' in chat))
+chat.delete = true                    
+if (!('modohorny' in chat)) chat.modohorny = false                    
 if (!('stickers' in chat)) chat.stickers = false                   
 if (!('autosticker' in chat)) chat.autosticker = false                      
 if (!('audios' in chat)) chat.audios = true                     
@@ -970,12 +969,12 @@ if (!('antiInstagram' in chat)) chat.antiInstagram = false
 if (!('antiTwitter' in chat)) chat.antiInstagram = false
 if (!('antifake' in chat)) chat.antifake = false
 if (!('reaction' in chat)) chat.reaction = true    
-if (!('viewonce' in chat)) chat.viewonce = false       
+if (!('viewonce' in chat)) chat.viewonce = true         
 if (!('modoadmin' in chat)) chat.modoadmin = false           
-if (!('antitoxic' in chat)) chat.antitoxic = false
+if (!('antitoxic' in chat)) chat.antitoxic = true 
 if (!('simi' in chat)) chat.simi = false
 if (!('antiTraba' in chat)) chat.antiTraba = true
-if (!('autolevelup' in chat))  chat.autolevelup = true
+if (!('autolevelup' in chat))  chat.autolevelup = false
 if (!isNumber(chat.expired)) chat.expired = 0
 } else
 global.db.data.chats[m.chat] = {
@@ -986,7 +985,7 @@ sWelcome: '',
 sBye: '',
 sPromote: '',
 sDemote: '', 
-delete: false,
+delete: true,
 modohorny: true,
 stickers: false,
 autosticker: false,
@@ -1002,12 +1001,12 @@ antiInstagram: false,
 antiTwitter: false,
 antifake: false,
 reaction: true,
-viewonce: false,
+viewonce: true,
 modoadmin: false,
-antitoxic: false,
+antitoxic: true,
 simi: false,
 antiTraba: true,
-autolevelup: true,
+autolevelup: false,
 expired: 0,
 }
 let settings = global.db.data.settings[this.user.jid]
@@ -1017,7 +1016,7 @@ if (!('self' in settings)) settings.self = false
 if (!('autoread' in settings)) settings.autoread = false
 if (!('autoread2' in settings)) settings.autoread2 = false
 if (!('restrict' in settings)) settings.restrict = false
-if (!('temporal' in settings)) settings.temporal = false
+if (!('temporal' in settings)) settings.temporal = true
 if (!('antiPrivate' in settings)) settings.antiPrivate = false
 if (!('antiCall' in settings)) settings.antiCall = true
 if (!('antiSpam' in settings)) settings.antiSpam = true 
@@ -1028,7 +1027,7 @@ self: false,
 autoread: false,
 autoread2: false,
 restrict: false,
-temporal: false,
+temporal: true,
 antiPrivate: false,
 antiCall: true,
 antiSpam: true,
@@ -1170,11 +1169,11 @@ if (user.antispam > 2) return
 m.reply(`🚫 *ESTÁ BANEADO(A), NO PUEDE USAR COMANDOS*\n
 📑 *MOTIVO: ${user.messageSpam === 0 ? 'NO ESPECIFICADO' : user.messageSpam}*\n
 ⚠️ \`\`\`SI ESTE BOT ES CUENTA OFICIAL Y TIENE EVIDENCIA QUE RESPALDE QUE ESTE MENSAJE ES UN ERROR, PUEDE EXPONER SU CASO EN:\`\`\`
-👉 *${ig}*\n👉 ${asistencia}`)
+👉 *${ig}*\n👉 wa.me/201554582851\n👉 wa.me/201554582851`)
 user.antispam++	
 return
 }}
-		
+
 let hl = _prefix 
 let adminMode = global.db.data.chats[m.chat].modoadmin
 let gata = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
@@ -1227,7 +1226,7 @@ if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.mo
 this.reply(m.chat, `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎`, m)
 continue     
 }
-			
+
 m.exp += xp
 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
 this.reply(m.chat, `${lenguajeGB['smsCont7']()} *${usedPrefix}buy*`, m)
@@ -1289,10 +1288,10 @@ await plugin.after.call(this, m, extra)
 console.error(e)
 }}
 if (m.limit)
-m.reply(+m.limit + lenguajeGB.smsCont8())
+m.reply('تـم اسـتـخـدام ' + +m.limit + ' الـمـاس 💎  ')
 }
 if (m.money)
-m.reply(+m.money + ' 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎 🐱 𝙐𝙎𝘼𝘿𝙊(𝙎)')  
+m.reply('تـم اسـتـخـدام ' + +m.money + ' عملات 🪙 ')
 break
 }}} catch (e) {
 console.error(e)
@@ -1346,12 +1345,9 @@ let settingsREAD = global.db.data.settings[this.user.jid] || {}
 if (opts['autoread']) await this.readMessages([m.key])
 if (settingsREAD.autoread2) await this.readMessages([m.key])  
 //if (settingsREAD.autoread2 == 'true') await this.readMessages([m.key])    
-	    
+
 if (!db.data.chats[m.chat].reaction && m.isGroup) throw 0
-if (!m.fromMem && m.text.match(/(ata|des|able|izo|ido|.-.|._.|:)|:(|:v|v:|o.o|;v|v;|v':|:'v)/gi)) {
-let emot = pickRandom(["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🤩", "😏", "😳", "🥵", "🤯", "😱", "😨", "🤫", "🥴", "🤧", "🤑", "🤠", "🤖", "🤝", "💪", "👑", "😚", "🐱", "🐈", "🐆", "🐅", "⚡️", "🌈", "☃️", "⛄️", "🌝", "🌛", "🌜", "🍓", "🍎", "🎈", "🪄", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "💘", "💝", "💟", "🌝", "😎", "🔥", "🖕", "🐦"])
-this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
-function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
+
 }}
 
 /**
@@ -1384,7 +1380,7 @@ const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this
 const isBotAdminNn = botTt2?.admin === "admin" || false
 text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 😻') :
 (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
-			    
+
 if (chat.antifake && isBotAdminNn && action === 'add') {
 const numerosPermitidos = ["1", "2", "4", "6", "7", "8", "9"] //PUEDES EDITAR LOS USUARIOS QUE SE ELIMINARÁN SI EMPIEZA POR CUALQUIER DE ESOS NÚMEROS	
 if (numerosPermitidos.some(num => user.startsWith(num))) {	
@@ -1409,7 +1405,7 @@ mentionedJid:[user],
 sourceUrl: [md, nna, nn2, yt, ig, paypal, fb].getRandom()}}}, { quoted: fkontak2 })
 //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak2 })
 }}}
-			    
+
 break
 case 'promote':
 case 'daradmin':
@@ -1501,7 +1497,7 @@ watchFile(file, async () => {
 unwatchFile(file);
 console.log(chalk.redBright('Update \'handler.js\''));
 if (global.reloadHandler) console.log(await global.reloadHandler());
-  
+
 if (global.conns && global.conns.length > 0 ) {
 const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
 for (const userr of users) {
