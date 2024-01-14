@@ -49,6 +49,7 @@ ${global.amrr}فينوم
 ${global.amrr}سوكونا
 ${global.amrr}ارسم
 ${global.amrr}تحدث
+${global.amrr}سيري
 ${global.sham}
 ⩥💜│الـجـروبـ│💜⩤
 ${global.sham}
@@ -162,6 +163,8 @@ ${global.amrr}لقب
 ${global.amrr}لقبه
 ${global.amrr}الألقاب
 ${global.amrr}جيب
+${global.amrr}ابعت
+${global.amrr}غير
 ${global.sham}
 
 `
