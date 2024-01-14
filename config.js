@@ -193,10 +193,10 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 
 global.wm = "𝑻𝑶𝑼𝑲𝑨 𝑩𝑶𝑻 🌸"
 global.igfg = "𝑻𝑶𝑼𝑲𝑨 𝑩𝑶𝑻 🌸"
-global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
-global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
-global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
-global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
+global.wait = "*⌛ ▬▭▭▭▭▭▭*"
+global.waitt = "*⌛ ▬▬▭▭▭*"
+global.waittt = "*⌛ ▬▬▬▬▭▭*"
+global.waitttt = "*⌛ ▬▬▬▬▬▬▭*"
 global.nomorown = "201554582851"
 global.rwait = '⌛'
 global.dmoji = '🤭'
