@@ -157,6 +157,7 @@ ${global.amrr}سريع
 ${global.sham}
 ⩥💜│حصرياً│💜⩤
 ${global.sham}
+${global.amrr}دونات
 ${global.amrr}لقب
 ${global.amrr}لقبه
 ${global.amrr}الألقاب
