@@ -16,7 +16,7 @@ let handler = async(m, { conn }) => {
     }
 }
 
-handler.customPrefix = /@201554582851|ڤينوم|فينوم/i 
+handler.customPrefix = /@201554582851/i 
 handler.command = new RegExp
 handler.exp = 50
 export default handler
