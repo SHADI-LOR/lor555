@@ -29,6 +29,5 @@ ${global.sham}
 };
 
 handler.command = /^الاساسيات$/i;
-handler.owner = true;
 
 export default handler;
