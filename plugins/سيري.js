@@ -17,7 +17,7 @@ throw 'OCURRIÓ UN ERROR'
 }
 
 }
-handler.command = ['سيري']
+handler.command = ['بارد']
 handler.help = ['bard']
 handler.tags = ['herramientas']
 
