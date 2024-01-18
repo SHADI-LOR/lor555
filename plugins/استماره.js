@@ -1,35 +1,32 @@
 let handler  = async (m, { conn }) => { 
- let name = conn.getName(m.sender) 
- let teks = ` 
- ${pickRandom([`**مـࢪحـبـاً بـکـم فـي مـمـلـكـه .『𝑻𝒆𝒔𝒍𝒂』
-*‏*
+    let name = conn.getName(m.sender);
+    let teks = `
+*مـرحبًا بـكـم فـي مـمـلـكـة .『𝑻𝒆𝒔𝒍𝒂』*
 *✥━═━═• 《•🏮•》•═━═━✥*
-*•✗╎يـࢪجـى مـنـكـم امـــلاء هـاذهـي الاسـتـــ📜ـمـاࢪة لـكـي تـنـظـمـو الـيـنـا*
+يرجى منكم املاء هذه الاستمارة لكي تنظموا إلينا:
 
-*•✗╎لـقـبـك🎭⤾『』*
+*لقبك🎭⤾『』*
 
-*•✗╎اسـم انـمـي الـشـخـصـيـة🔮⤾『  』*
+*اسم انمي الشخصية🔮⤾『』*
 
-*•✗╎ اࢪسـل صـوࢪة الـشـخـصـيـة📸⤾『』*
+*ارسل صورة الشخصية📸⤾『』*
 
-*•✗╎ مـن طـرف مـيـن⛓️⤾『』*
+*من طرف مين⛓️⤾『』*
 
-*•✗╎ بنت او ولد👩🏻🧑🏻⤾『』*
+*بنت أو ولد👩🏻🧑🏻⤾『』*
 
-*•✗╎مـلاحـظـه مـهـمـه*
-*⤾*
-*‏*مـمـنـوع اخـذ لـقـب مـعـاكـس الـى جـنـسـك*
-  *✥━═━═• 《•🏮•》•═━═━✥*
-*تـࢪحـب بـكـم أداࢪة:*
-┊𝑻𝒆𝒔𝒍𝒂𓆩🏮𓆪𝑲𝒐𝒏𝒐𝒉𝒂┊♡])} 
- `.trim() 
- conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }}) 
- } 
- handler.customPrefix = /استماره|استمارة/i 
- handler.command = new RegExp 
-  
- export default handler 
-  
- function pickRandom(list) { 
-     return list[Math.floor(Math.random() * list.length)] 
- }
+*ملاحظة مهمة:*
+*ممنوع اخذ لقب معاكس لجنسك*
+
+*✥━═━═• 《•🏮•》•═━═━✥*
+ترحب بكم إدارة:
+┊𝑻𝒆𝒔𝒍𝒂𓆩🏮𓆪𝑲𝒐𝒏𝒐𝒉𝒂┊♡
+`.trim();
+
+    conn.reply(m.chat, teks, m);
+};
+
+handler.customPrefix = /استماره|الاستماره/i;
+handler.command = new RegExp;
+
+export default handler;
