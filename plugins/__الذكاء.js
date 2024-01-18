@@ -25,6 +25,5 @@ ${global.sham}
 };
 
 handler.command = /^الذكاء$/i;
-handler.owner = true;
 
 export default handler;
