@@ -102,6 +102,7 @@ global.moment = moment
 global.ippaa = '✦🍇╿';
 global.amrr = '✦🍓╿';
 global.amrr2 = '✦🤖╿';
+global.amrr2 = '✦🏮╿';
 global.sham = '⟣┈┈┈┈┈┈⟢𝒕𝒐𝒖𝒌𝒂⟣┈┈┈┈┈┈⟢'
 global.veeenom = '201554582851'
 
