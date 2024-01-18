@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     try {
         let info = `
 ${global.sham}
-⩥⚡│قـسـم المـطور│⚡⩤
+⩥💜│قـسـم المـطور│💜⩤
 ${global.sham}
 ${global.amrr}بان
 ${global.amrr}فك-البان
@@ -31,7 +31,7 @@ ${global.sham}
     }
 };
 
-handler.command = /^قائمتي$/i;
+handler.command = /^المالك$/i;
 handler.owner = true;
 
 export default handler;
