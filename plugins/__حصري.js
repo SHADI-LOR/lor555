@@ -6,28 +6,13 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ${global.sham}
 ⩥💜│قـسـم الـجـديـد│💜⩤
 ${global.sham}
-${global.amrr7}اكس
-${global.amrr7}حظ
-${global.amrr7}رياضه
-${global.amrr7}دين
-${global.amrr7}خمن
-${global.amrr7}انمي
-${global.amrr7}كت
-${global.amrr7}فكك
-${global.amrr7}ايمواجي
-${global.amrr7}رتب
-${global.amrr7}علم
-${global.amrr7}عين
-${global.amrr7}احزر
-${global.amrr7}كوره
-${global.amrr7}شخصية
-${global.amrr7}الحب
-${global.amrr7}الكره
-${global.amrr7}زواج
-${global.amrr7}طلاق
-${global.amrr7}قدوتي
-${global.amrr7}لعبة
-${global.amrr7}موتتي
+${global.amrr10}دونات
+${global.amrr10}لقب
+${global.amrr10}لقبه
+${global.amrr10}الألقاب
+${global.amrr10}جيب
+${global.amrr10}ابعت
+${global.amrr10}غير
 ${global.sham}
 `;
 
