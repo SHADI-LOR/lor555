@@ -1,36 +1,55 @@
-import fs, { promises } from 'fs'
+import { createHash } from 'crypto'
+import { canLevelUp, xpRange } from '../lib/levelling.js'
 import fetch from 'node-fetch'
-let handler = async (m, { conn, usedPrefix, command }) => {
-try {
-let d = new Date(new Date + 3600000)
-let locale = 'ar'
-let week = d.toLocaleDateString(locale, { weekday: 'long' })
-let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
-let _uptime = process.uptime() * 1000
-let uptime = clockString(_uptime)
+import fs from 'fs'
+const { levelling } = '../lib/levelling.js'
+import moment from 'moment-timezone'
+import { promises } from 'fs'
+import { join } from 'path'
+const time = moment.tz('Egypt').format('HH')
+let wib = moment.tz('Egypt').format('HH:mm:ss')
+//import db from '../lib/database.js'
+
+let handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
+    let d = new Date(new Date + 3600000)
+    let locale = 'ar'
+    let week = d.toLocaleDateString(locale, { weekday: 'long' })
+    let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
+    let _uptime = process.uptime() * 1000
+    let uptime = clockString(_uptime)
+let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
+let videoUrl = 'https://telegra.ph/file/30ad729bc19e8ed1b46a4.mp4';
+ let vn = './media/menu.mp3';
+  const user = global.db.data.users[m.sender];
+  const {money, joincount} = global.db.data.users[m.sender];
+  const {exp, limit, level, role} = 
+    global.db.data.users[m.sender];
+let { min, xp, max } = xpRange(user.level, global.multiplier)
+let username = conn.getName(who)
+let math = max - xp
+let rwait ='🍧'
+let sn = createHash('md5').update(who).digest('hex')
+let totalreg = Object.keys(global.db.data.users).length;
 let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length 
 let more = String.fromCharCode(8206)
-let readMore = more.repeat(850)   
-let taguser = conn.getName(m.sender)
-let user = global.db.data.users[m.sender]
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-  //m.react('🎮');
-    await conn.sendMessage(m.chat, { react: { text: '🍧', key: m.key } })
-    let vennom = '+201554582851'
-let menu = `
+let readMore = more.repeat(900) 
+  const taguser = '@' +  m.sender.split('@s.whatsapp.net')[0];
+  m.react(rwait)
+let str = `
 *🛡️TOUKA-BOT-MÐ🛡️*
 ┐┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┌ـ
-┊💜 مـرحـبـاً ♡ -  @${m.sender.split("@")[0]
-┊⏲️ وقت التشغيل♡ - ${uptime}
-┊🌄 الـيـوم ♡ - ${week}
+┊💜مـرحـبـاً ♡ - ${taguser}
+┊⏲️وقت التشغيل ♡ - ${uptime}
+┊🌄الـيـوم ♡ - ${week}
 ┊📍الـتـاريـخ ♡ - ${date}
 ┊⚡مـطـوري ♡ - ${venom}
 ┘┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⟢ـ
 ┐┈⟤「قـائـمـات اوامــر بـوت تـوكــا ⟥┈┌
 ┊🕋♡ - 「.القران
 ┊📚♡ - 「.الذكاء
-┊🛡️♡ - 「.المطور
-┊💌♡ - 「.الاساسيات 
+┊🛡️♡ - 「.المالك
+┊💌♡ - 「.الاعضاء 
 ┊🧬♡ - 「.المجموعات
 ┊📥♡ - 「.التحميلات
 ┊🧰♡ - 「.التحويلات
@@ -38,43 +57,45 @@ let menu = `
 ┊🎉♡ - 「.الحصري 
 ┊🎮♡ - 「.الالعاب
 ┊🎩♡ - 「.الوجوهات
-┊🪨♡ - 「.الاصوات
+┊⛰️♡ - 「.الاصوات
 ┊ *.الاوامر2    > لعرض الاوامر بشكل كامل*
 ┊ *.الاوامر3    > لعرض الاوامر بشكل جديد*
 │ تحت إدارة :  ♡🏎️𓆩𝑻𝒆𝒔𝒍𝒂𓆪🏎️♡
 ┘┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⟢ـ
 📚 *_تـحـذيـر مـمـنـوع اسـتـخـدام الـبـوت الا فـي الجـروبـات إذا قـمـت بـدخـول الـي الـبـوت خـاص سـوف يـتـم حـظـرك_* 📚
-`
+`.trim();
 
-const vi = "https://telegra.ph/file/ce540d877b5a6e3e5a5d1.jpg"
+conn.sendMessage(m.chat, {
+        video: { url: videoUrl }, caption: str,
+  mentions: [m.sender,global.conn.user.jid],
+  gifPlayback: true,gifAttribution: 0
+    }, { quoted: m });
+}; 
+handler.help = ['main']
+handler.tags = ['group']
+handler.command = ['الاوامر','اوامر'] 
 
-try {
-await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak }) 
-} catch (error) {
-try {
-await conn.sendMessage(m.chat, { image: { url: gataMenu.getRandom() }, gifPlayback: false, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak }) 
-} catch (error) {
-try {
-await conn.sendMessage(m.chat, { image: gataImg.getRandom(), gifPlayback: false, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak }) 
-} catch (error) {
-try{
-await conn.sendFile(m.chat, imagen5, 'menu.jpg', menu, fkontak, false, { mentions: [m.sender, global.conn.user.jid] })
-} catch (error) {
-return 
-}}}} 
-
-} catch (e) {
-await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
-console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
-console.log(e)}}
-
-handler.command = /^اوامر|الاوامر$/i
-handler.limit = true 
 export default handler
-
 function clockString(ms) {
-let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
-let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
-let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
-
+    let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+    let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+    let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+    return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
+    
+    function ucapan() {
+      const time = moment.tz('Egypt').format('HH')
+      let res = "بداية يوم سعيده ☀️"
+      if (time >= 4) {
+        res = "صباح الخير 🌄"
+      }
+      if (time >= 10) {
+        res = "مساء الخير ☀️"
+      }
+      if (time >= 15) {
+        res = "مساء الخير 🌇"
+      }
+      if (time >= 18) {
+        res = "مساء الخير 🌙"
+      }
+      return res
+      }
