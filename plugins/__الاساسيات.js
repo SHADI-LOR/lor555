@@ -39,6 +39,6 @@ ${global.sham}
     }
 };
 
-handler.command = /^الاساسيات$/i;
+handler.command = /^الاعضاء$/i;
 
 export default handler;
