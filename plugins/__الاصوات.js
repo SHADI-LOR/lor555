@@ -28,6 +28,6 @@ ${global.sham}
     }
 };
 
-handler.command = /^الالعاب$/i;
+handler.command = /^الاصوات$/i;
 
 export default handler;
