@@ -26,6 +26,6 @@ ${global.sham}
     }
 };
 
-handler.command = /^التنزيلات$/i;
+handler.command = /^التحميلات$/i;
 
 export default handler;
