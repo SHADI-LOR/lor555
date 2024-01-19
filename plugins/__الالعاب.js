@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     try {
         let info7 = `
 ${global.sham}
-⩥💜│قـسـم الـذكـاء الاصطناعي│💜⩤
+⩥💜│قـسـم الـالـعـاب│💜⩤
 ${global.sham}
 ${global.amrr7}اكس
 ${global.amrr7}حظ
