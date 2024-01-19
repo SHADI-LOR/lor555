@@ -107,6 +107,9 @@ global.amrr4 = '✦👥╿';
 global.amrr5 = '✦🍉╿';
 global.amrr6 = '✦⚡╿';
 global.amrr7 = '✦🎲╿';
+global.amrr8 = '✦🏪╿';
+global.amrr9 = '✦🧕🏻╿';
+global.amrr10 = '✦💥╿';
 global.sham = '⟣┈┈┈┈┈┈⟢𝒕𝒐𝒖𝒌𝒂⟣┈┈┈┈┈┈⟢'
 global.veeenom = '201554582851'
 
