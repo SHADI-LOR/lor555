@@ -19,7 +19,7 @@ var handler = async (m, { conn, text, command, usedPrefix }) => {
 
 handler.help = ['bardimg'];
 handler.tags = ['ai'];
-handler.command = /^(شوف)$/i;
+handler.command = ['سيري']
 handler.limit = true;
 
 export default handler;
