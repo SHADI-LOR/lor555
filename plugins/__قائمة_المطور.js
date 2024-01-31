@@ -3,9 +3,11 @@ import fetch from 'node-fetch';
 let handler = async (m, { conn, usedPrefix, command }) => {
     try {
         let info = `
-${global.sham}
+${global.sham1}
+${global.sham2}
 ⩥💜│قـسـم المـطور│💜⩤
-${global.sham}
+${global.sham3}
+${global.sham2}
 ${global.amrr}بان
 ${global.amrr}فك-البان
 ${global.amrr}حظر
@@ -18,9 +20,11 @@ ${global.amrr}البتبندين
 ${global.amrr}المحظورين
 ${global.amrr}رستار
 ${global.amrr}تحديث
-${global.sham}
+${global.sham3}
+${global.sham2}
 _*الاوامر مخصصه لڤينوم و سوكونا فقط ⁦(⁠◠⁠‿⁠・⁠)⁠—⁠☆⁩*_
-${global.sham}
+${global.sham3}
+${global.sham4}
 `;
 
         const imageURL = 'https://telegra.ph/file/eb3986717a15c6e089c1b.jpg';
@@ -31,7 +35,7 @@ ${global.sham}
     }
 };
 
-handler.command = /^المالك$/i;
+handler.command = /^المالك|ت9$/i;
 handler.owner = true;
 
 export default handler;
