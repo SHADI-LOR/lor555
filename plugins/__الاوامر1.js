@@ -19,18 +19,19 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
     await conn.sendMessage(m.chat, { react: { text: '🍇', key: m.key } })
     let vennom = '+201554582851'
 let menu = `
-${global.sham}
+${global.sham1}
+${global.sham2}
 ${global.ippaa} *اهلا بك @${m.sender.split("@")[0]}*
 ${global.ippaa} *اسمي : ${packname}${conn.user.jid == global.conn.user.jid ? '' : `\n*⇢ *@${global.conn.user.jid.split`@`[0]}*`}*
 ${global.ippaa} *الوقت : ${uptime}*
 ${global.ippaa} *اليوم : ${week}*
 ${global.ippaa} *التاريخ : ${date}*
 ${global.ippaa} *مطوري : ${vennom}
-${global.sham}
+${global.sham3}
 قـائـمـه بـوت تـوكـا ⁦(⁠◕⁠ᴗ⁠◕⁠✿⁠)⁩
-${global.sham}
+${global.sham2}
 ⩥💜│الاسـاسـيـات│💜⩤
-${global.sham}
+${global.sham3}
 ${global.amrr}صلح
 ${global.amrr}ابلاغ
 ${global.amrr}المطور
