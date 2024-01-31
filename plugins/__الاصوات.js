@@ -31,6 +31,6 @@ ${global.sham4}
     }
 };
 
-handler.command = /^الاصوات$/i;
+handler.command = /^الاصوات|ت11$/i;
 
 export default handler;
