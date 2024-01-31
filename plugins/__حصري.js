@@ -7,6 +7,7 @@ ${global.sham}
 ⩥💜│قـسـم الـجـديـد│💜⩤
 ${global.sham}
 ${global.amrr10}دونات
+${global.amrr10}قلوب
 ${global.amrr10}لقب
 ${global.amrr10}لقبه
 ${global.amrr10}الألقاب
