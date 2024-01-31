@@ -3,9 +3,11 @@ import fetch from 'node-fetch';
 let handler = async (m, { conn, usedPrefix, command }) => {
     try {
         let info5 = `
-${global.sham}
-⩥💜│قـسـم الـحـويـلات│💜⩤
-${global.sham}
+${global.sham1}
+${global.sham2}
+│┊⩥💜│قـسـم الـحـويـلات│💜⩤
+${global.sham3}
+${global.sham2}
 ${global.amrr6}ملصق
 ${global.amrr6}لرابط
 ${global.amrr6}لصوره
@@ -16,7 +18,8 @@ ${global.amrr6}حقوق
 ${global.amrr6}لانمي
 ${global.amrr6}لريك
 ${global.amrr6}لكرتون
-${global.sham}
+${global.sham3}
+${global.sham4}
 `
         const imageURL5 = 'https://telegra.ph/file/9d6d7e272bc8c6c8125bc.jpg';
 
@@ -26,6 +29,6 @@ ${global.sham}
     }
 };
 
-handler.command = /^التحويلات$/i;
+handler.command = /^التحويلات|ت7$/i;
 
 export default handler;
