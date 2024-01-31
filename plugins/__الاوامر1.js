@@ -172,6 +172,7 @@ ${global.amrr}منفوخ
 ${global.amrr}عميق 
 ${global.amrr}بطيء
 ${global.amrr}سريع
+${global.sham3}
 ${global.sham4}
 
 `
