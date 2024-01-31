@@ -28,10 +28,13 @@ ${global.ippaa} *اليوم : ${week}*
 ${global.ippaa} *التاريخ : ${date}*
 ${global.ippaa} *مطوري : ${vennom}
 ${global.sham3}
-قـائـمـه بـوت تـوكـا ⁦(⁠◕⁠ᴗ⁠◕⁠✿⁠)⁩
 ${global.sham2}
-⩥💜│الاسـاسـيـات│💜⩤
+│┊قـائـمـه بـوت تـوكـا ⁦(⁠◕⁠ᴗ⁠◕⁠✿⁠)⁩
 ${global.sham3}
+${global.sham2}
+│┊⩥💜│الاسـاسـيـات│💜⩤
+${global.sham3}
+${global.sham2}
 ${global.amrr}صلح
 ${global.amrr}ابلاغ
 ${global.amrr}المطور
@@ -43,16 +46,20 @@ ${global.amrr}قائمتي
 ${global.amrr}لوجوهات
 ${global.amrr}الجروبات
 ${global.amrr}البوتات
-${global.sham}
-⩥💜│الـذكـاء الاصطناعي/ia│💜⩤
-${global.sham}
+${global.sham3}
+${global.sham2}
+│┊⩥💜│الـذكـاء الاصطناعي/ia│💜⩤
+${global.sham3}
+${global.sham2}
 ${global.amrr}فينوم
 ${global.amrr}سوكونا
 ${global.amrr}ارسم
 ${global.amrr}تحدث
-${global.sham}
-⩥💜│الـجـروبـ│💜⩤
-${global.sham}
+${global.sham3}
+${global.sham2}
+│┊⩥💜│الـجـروبـ│💜⩤
+${global.sham3}
+${global.sham2}
 ${global.amrr}اضف
 ${global.amrr}طرد
 ${global.amrr}ترقيه
@@ -67,9 +74,11 @@ ${global.amrr}جروب فتح
 ${global.amrr}الجروب
 ${global.amrr}الادمن
 ${global.amrr}حذف
-${global.sham}
-⩥💜│الالـعـاب│💜⩤
-${global.sham}
+${global.sham3}
+${global.sham2}
+│┊⩥💜│الالـعـاب│💜⩤
+${global.sham3}
+${global.sham2}
 ${global.amrr}اكس
 ${global.amrr}حظ
 ${global.amrr}رياضه
@@ -92,9 +101,11 @@ ${global.amrr}طلاق
 ${global.amrr}قدوتي
 ${global.amrr}لعبة
 ${global.amrr}موتتي
-${global.sham}
-⩥💜│الاعـضـاء│💜⩤
-${global.sham}
+${global.sham3}
+${global.sham2}
+│┊⩥💜│الاعـضـاء│💜⩤
+${global.sham3}
+${global.sham2}
 ${global.amrr}تطقيم
 ${global.amrr}طقم
 ${global.amrr}طقمي
@@ -116,9 +127,11 @@ ${global.amrr}لانمي
 ${global.amrr}ميسي
 ${global.amrr}رونالدو
 ${global.amrr}كيوت
-${global.sham}
-⩥💜│التـحـمـيـل│💜⩤
-${global.sham}
+${global.sham3}
+${global.sham2}
+│┊⩥💜│التـحـمـيـل│💜⩤
+${global.sham3}
+${global.sham2}
 ${global.amrr}يوتيوب
 ${global.amrr}فيديو
 ${global.amrr}اغنيه
@@ -128,9 +141,11 @@ ${global.amrr}تطبيق
 ${global.amrr}بحث
 ${global.amrr}صوره
 ${global.amrr}جوجل
-${global.sham}
-⩥💜│الـبـنـك│💜⩤
-${global.sham}
+${global.sham3}
+${global.sham2}
+│┊⩥💜│الـبـنـك│💜⩤
+${global.sham3}
+${global.sham2}
 ${global.amrr}راتب
 ${global.amrr}يومي 
 ${global.amrr}اسبوعي
@@ -141,9 +156,11 @@ ${global.amrr}لفل
 ${global.amrr}خبرات
 ${global.amrr}رصيدي
 ${global.amrr}الماسي
-${global.sham}
-⩥💜│الاصـوات│💜⩤
-${global.sham}
+${global.sham3}
+${global.sham2}
+│┊⩥💜│الاصـوات│💜⩤
+${global.sham3}
+${global.sham2}
 ${global.amrr}رفيع
 ${global.amrr}تخين
 ${global.amrr}تخينن
@@ -155,7 +172,7 @@ ${global.amrr}منفوخ
 ${global.amrr}عميق 
 ${global.amrr}بطيء
 ${global.amrr}سريع
-${global.sham}
+${global.sham4}
 
 `
 
