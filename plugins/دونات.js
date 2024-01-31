@@ -72,5 +72,6 @@ let handler = async (m, { conn, command, text }) => {
   }
 };
 handler.command = /^(ابدا-دونات|اعطاء-دونات|حذف-دونات|عرض-دونات|دونات)$/i;
+handler.admin = true;
 export default handler;
 
