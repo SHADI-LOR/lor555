@@ -3,9 +3,11 @@ import fetch from 'node-fetch';
 let handler = async (m, { conn, usedPrefix, command }) => {
     try {
         let info2 = `
-${global.sham}
-⩥💜│قـسـم الاعـضـاء│💜⩤
-${global.sham}
+${global.sham1}
+${global.sham2}
+│┊⩥💜│قـسـم الاعـضـاء│💜⩤
+${global.sham3}
+${global.sham2}
 ${global.amrr3}نسخه
 ${global.amrr3}نسخه --كود
 ${global.amrr3}صلح
@@ -28,10 +30,11 @@ ${global.amrr3}توب
 ${global.amrr3}ميسي
 ${global.amrr3}رونالدو
 ${global.amrr3}ترجم
-${global.sham}
+${global.sham3}
+${global.sham4}
 `;
 
-        const imageURL2 = 'https://telegra.ph/file/cf3a84ad3b6192601e258.jpg';
+        const imageURL2 = 'https://telegra.ph/file/cfa84ad3b6192601e258.jpg';
 
         await conn.sendMessage(m.chat, { image: { url: imageURL2 }, caption: info2 });
     } catch (error) {
@@ -39,6 +42,6 @@ ${global.sham}
     }
 };
 
-handler.command = /^الاعضاء$/i;
+handler.command = /^الاعضاء|ت1$/i;
 
 export default handler;
