@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { conn, usedPrefix, command }) => {
     try {
-        let info2 = `
+        let info80 = `
 ${global.sham1}
 ${global.sham2}
 │┊⩥💜│قـسـم الاعـضـاء│💜⩤
@@ -34,9 +34,9 @@ ${global.sham3}
 ${global.sham4}
 `;
 
-        const imageURL2 = 'https://telegra.ph/file/cfa84ad3b6192601e258.jpg';
+        const imageURL80 = 'https://telegra.ph/file/cfa84ad3b6192601e258.jpg';
 
-        await conn.sendMessage(m.chat, { image: { url: imageURL2 }, caption: info2 });
+        await conn.sendMessage(m.chat, { image: { url: imageURL80 }, caption: info80 });
     } catch (error) {
         console.log(error);
     }
