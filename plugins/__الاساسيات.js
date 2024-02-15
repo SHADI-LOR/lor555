@@ -42,6 +42,6 @@ ${global.sham4}
     }
 };
 
-handler.command = /^الاعضاء|ت1$/i;
+handler.command = ["الاعضاء","ت1"];
 
 export default handler;
