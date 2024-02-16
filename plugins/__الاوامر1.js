@@ -111,7 +111,9 @@ ${global.amrr}قدوتي
 ${global.amrr}لعبة
 ${global.amrr}موتتي
 ${global.amrr}نسبه-شاذ
-${global.amrr}نسبه-برود
+${global.amrr}نسبه-هدوء
+${global.amrr}نسبه-ذكاء
+${global.amrr}نسبه-قبح
 ${global.sham3}
 ${global.sham2}
 │┊⩥🌸│الاعـضـاء│🌸⩤
@@ -128,7 +130,9 @@ ${global.amrr}ترجم
 ${global.amrr}زخرفه
 ${global.amrr}دمج
 ${global.amrr}ملصق
+${global.amrr}استيكر
 ${global.amrr}سرقه
+${global.amrr}ستك
 ${global.amrr}توب
 ${global.amrr}جوده
 ${global.amrr}تليجراف
