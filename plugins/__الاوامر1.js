@@ -55,6 +55,11 @@ ${global.amrr}فينوم
 ${global.amrr}سوكونا
 ${global.amrr}ارسم
 ${global.amrr}تحدث
+${global.amrr}بارد
+${global.amrr}سيري
+${global.amrr}احسب
+${global.amrr}ايميل
+${global.amrr}فيك
 ${global.sham3}
 ${global.sham2}
 │┊⩥🌸│الـجـروبـ│🌸⩤
@@ -80,7 +85,11 @@ ${global.sham2}
 ${global.sham3}
 ${global.sham2}
 ${global.amrr}اكس
-${global.amrr}حظ
+${global.amrr}تحدي
+${global.amrr}حظ1
+${global.amrr}حظ2
+${global.amrr}حظ3
+${global.amrr}فعاليات
 ${global.amrr}رياضه
 ${global.amrr}دين
 ${global.amrr}خمن
@@ -101,6 +110,8 @@ ${global.amrr}طلاق
 ${global.amrr}قدوتي
 ${global.amrr}لعبة
 ${global.amrr}موتتي
+${global.amrr}نسبه-شاذ
+${global.amrr}نسبه-برود
 ${global.sham3}
 ${global.sham2}
 │┊⩥🌸│الاعـضـاء│🌸⩤
