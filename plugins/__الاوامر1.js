@@ -60,6 +60,7 @@ ${global.amrr}سيري
 ${global.amrr}احسب
 ${global.amrr}ايميل
 ${global.amrr}فيك
+${global.amrr}حجم
 ${global.sham3}
 ${global.sham2}
 │┊⩥🌸│الـجـروبـ│🌸⩤
@@ -158,6 +159,17 @@ ${global.amrr}صوره
 ${global.amrr}جوجل
 ${global.sham3}
 ${global.sham2}
+│┊⩥🌸│الـوجـوهـات│🌸⩤
+${global.sham3}
+${global.sham2}
+${global.amrr}لوجوهات
+${global.amrr}لوجو-حب
+${global.amrr}تصميم1
+${global.amrr}تصميم2
+${global.amrr}تصميم3
+${global.amrr}مارد
+${global.sham3}
+${global.sham2}
 │┊⩥🌸│الـبـنـك│🌸⩤
 ${global.sham3}
 ${global.sham2}
@@ -199,7 +211,6 @@ ${global.amrr}ابعت
 ${global.amrr}فعاليات 
 ${global.amrr}مارد
 ${global.sham3}
-
 ${global.sham4}
 
 `
