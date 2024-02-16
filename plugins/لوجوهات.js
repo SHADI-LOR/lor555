@@ -36,27 +36,27 @@ var effects = [
     'url': 'https://textpro.me/create-3d-sci-fi-text-effect-online-1050.html',
   },
   {
-    'title': '3D-rainbow-color-calligraphy',
+    'title': 'قوس-قزح',
     'url': 'https://textpro.me/3d-rainbow-color-calligraphy-text-effect-1049.html',
   },
   {
-    'title': '3D-water-pipe',
+    'title': 'ماء',
     'url': 'https://textpro.me/create-3d-water-pipe-text-effects-online-1048.html',
   },
   {
-    'title': 'Halloween-skeleton',
+    'title': 'عظمي',
     'url': 'https://textpro.me/create-halloween-skeleton-text-effect-online-1047.html',
   },
   {
-    'title': 'a-spooky-Halloween',
+    'title': 'هالوين',
     'url': 'https://textpro.me/create-a-spooky-halloween-text-effect-online-1046.html',
   },
   {
-    'title': 'a-cinematic-horror',
+    'title': 'رعب',
     'url': 'https://textpro.me/create-a-cinematic-horror-text-effect-1045.html',
   },
   {
-    'title': 'a-sketch',
+    'title': 'تخطيط',
     'url': 'https://textpro.me/create-a-sketch-text-effect-online-1044.html',
   },
   {
