@@ -60,7 +60,7 @@ var effects = [
     'url': 'https://textpro.me/create-a-sketch-text-effect-online-1044.html',
   },
   {
-    'title': 'blue-circuit-style',
+    'title': فضاءي',
     'url': 'https://textpro.me/create-blue-circuit-style-text-effect-online-1043.html',
   },
   {
@@ -68,31 +68,31 @@ var effects = [
     'url': 'https://textpro.me/create-space-text-effects-online-free-1042.html',
   },
   {
-    'title': 'a-metallic',
+    'title': 'معدني',
     'url': 'https://textpro.me/create-a-metallic-text-effect-free-online-1041.html',
   },
   {
-    'title': 'Creat-glossy-metalic',
+    'title': 'معدني2',
     'url': 'https://textpro.me/creat-glossy-metalic-text-effect-free-online-1040.html',
   },
   {
-    'title': 'a-Captain-America',
+    'title': 'كامريكا',
     'url': 'https://textpro.me/create-a-captain-america-text-effect-free-online-1039.html',
   },
   {
-    'title': 'science-fiction',
+    'title': 'خيال2',
     'url': 'https://textpro.me/create-science-fiction-text-effect-online-free-1038.html',
   },
   {
-    'title': 'Video-game-classic-8-bit',
+    'title': 'كلاسيكي',
     'url': 'https://textpro.me/video-game-classic-8-bit-text-effect-1037.html',
   },
   {
-    'title': 'green-horror-style',
+    'title': 'رعب-اخضر',
     'url': 'https://textpro.me/create-green-horror-style-text-effect-online-1036.html',
   },
   {
-    'title': 'a-transformer',
+    'title': 'محول',
     'url': 'https://textpro.me/create-a-transformer-text-effect-online-1035.html',
   },
   {
@@ -104,263 +104,263 @@ var effects = [
     'url': 'https://textpro.me/create-layered-text-effects-online-free-1032.html',
   },
   {
-    'title': 'Online-thunder--generator',
+    'title': 'رعد',
     'url': 'https://textpro.me/online-thunder-text-effect-generator-1031.html',
   },
   {
-    'title': 'a-magma-hot',
+    'title': 'صهريج',
     'url': 'https://textpro.me/create-a-magma-hot-text-effect-online-1030.html',
   },
   {
-    'title': '3D-stone-cracked-cool',
+    'title': 'حجر',
     'url': 'https://textpro.me/3d-stone-cracked-cool-text-effect-1029.html',
   },
   {
-    'title': '3D-neon-light',
+    'title': 'ضوء',
     'url': 'https://textpro.me/create-3d-neon-light-text-effect-online-1028.html',
   },
   {
-    'title': 'impressive-glitch',
+    'title': 'عطل',
     'url': 'https://textpro.me/create-impressive-glitch-text-effects-online-1027.html',
   },
   {
-    'title': 'a-glitch',
+    'title': 'خلل',
     'url': 'https://textpro.me/create-a-glitch-text-effect-online-free-1026.html',
   },
   {
-    'title': 'embossed--on-cracked-surface',
+    'title': 'سطح',
     'url': 'https://textpro.me/create-embossed-text-effect-on-cracked-surface-1024.html',
   },
   {
-    'title': 'Broken-glass',
+    'title': 'زجاج',
     'url': 'https://textpro.me/broken-glass-text-effect-free-online-1023.html',
   },
   {
-    'title': 'art-paper-cut',
-    'url': 'https://textpro.me/create-art-paper-cut-text-effect-online-1022.html',
+      'title': 'ورق',   
+      'url': 'https://textpro.me/create-art-paper-cut-text-effect-online-1022.html',
   },
   {
-    'title': 'artistic-black-and-white-status-and-quote-with-your-photos',
+    'title': 'ابيض-اسود',
     'url': 'https://textpro.me/create-artistic-black-and-white-status-and-quote-with-your-photos-1021.html',
   },
   {
-    'title': 'Online-3D-gradient--generator',
+    'title': 'انترنت',
     'url': 'https://textpro.me/online-3d-gradient-text-effect-generator-1020.html',
   },
   {
-    'title': 'a-3D-glossy-metal',
+    'title': 'معدني2',
     'url': 'https://textpro.me/create-a-3d-glossy-metal-text-effect-1019.html',
   },
   {
-    'title': '3D-realistic--on-the-beach',
+    'title': 'لوحة',
     'url': 'https://textpro.me/create-3d-realistic-text-effect-on-the-beach-online-1018.html',
   },
   {
-    'title': 'a-watercolor',
+    'title': 'قصص',
     'url': 'https://textpro.me/create-a-free-online-watercolor-text-effect-1017.html',
   },
   {
-    'title': 'Online-multicolor-3D-paper-cut',
+    'title': 'ضباب',
     'url': 'https://textpro.me/online-multicolor-3d-paper-cut-text-effect-1016.html',
   },
   {
-    'title': 'Write-text-on-foggy-window',
+    'title': 'شيطاني',
     'url': 'https://textpro.me/write-text-on-foggy-window-online-free-1015.html',
   },
   {
-    'title': 'neon-devil-wings',
+    'title': 'محيط',
     'url': 'https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html',
   },
   {
-    'title': '3D-underwater--generator',
+    'title': 'شعار',
     'url': 'https://textpro.me/3d-underwater-text-effect-generator-online-1013.html',
   },
   {
-    'title': 'Online-black-and-white-bear-mascot-logo-creation',
+    'title': 'جرافيت1',
     'url': 'https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html',
   },
   {
-    'title': 'wonderful-graffiti-art',
+    'title': 'جرافيت2',
     'url': 'https://textpro.me/create-wonderful-graffiti-art-text-effect-1011.html',
   },
   {
-    'title': 'a-cool-graffiti-text-on-the-wall',
+    'title': 'جرافيت3',
     'url': 'https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.html',
   },
   {
-    'title': 'cool-wall-graffiti',
+    'title': 'جرافيت4',
     'url': 'https://textpro.me/create-cool-wall-graffiti-text-effect-online-1009.html',
   },
   {
-    'title': 'a-christmas-holiday-snow',
+    'title': 'ثلج',
     'url': 'https://textpro.me/create-a-christmas-holiday-snow-text-effect-1007.html',
   },
   {
-    'title': 'a-futuristic-technology-neon-light',
+    'title': 'تكنولوجيا',
     'url': 'https://textpro.me/create-a-futuristic-technology-neon-light-text-effect-1006.html',
   },
   {
-    'title': 'snow--for-winter-holidays',
+    'title': 'شتاء',
     'url': 'https://textpro.me/create-snow-text-effects-for-winter-holidays-1005.html',
   },
   {
-    'title': 'a-cloud--on-the-sky',
+    'title': 'سحابه',
     'url': 'https://textpro.me/create-a-cloud-text-effect-on-the-sky-online-1004.html',
   },
   {
-    'title': '3D-luxury-gold',
+    'title': 'ذهب',
     'url': 'https://textpro.me/3d-luxury-gold-text-effect-online-1003.html',
   },
   {
-    'title': '3D-gradient',
+    'title': 'تدرج',
     'url': 'https://textpro.me/3d-gradient-text-effect-online-free-1002.html',
   },
   {
-    'title': 'Blackpink-logo-style',
+    'title': 'بلاكبينك',
     'url': 'https://textpro.me/create-blackpink-logo-style-online-1001.html',
   },
   {
-    'title': 'realistic-vintage-style-light-bulb',
+    'title': 'مصباح',
     'url': 'https://textpro.me/create-realistic-vintage-style-light-bulb-1000.html',
   },
   {
-    'title': 'realistic-cloud',
+    'title': 'سحابة1',
     'url': 'https://textpro.me/create-realistic-cloud-text-effect-online-free-999.html',
   },
   {
-    'title': 'a-cloud--in-the-sky',
+    'title': 'سحابة2',
     'url': 'https://textpro.me/create-a-cloud-text-effect-in-the-sky-online-997.html',
   },
   {
-    'title': 'Write-in-Sand-Summer-Beach',
+    'title': 'رمل1',
     'url': 'https://textpro.me/write-in-sand-summer-beach-free-online-991.html',
   },
   {
-    'title': 'Sand-Writing',
+    'title': 'رمل2',
     'url': 'https://textpro.me/sand-writing-text-effect-online-990.html',
   },
   {
-    'title': 'Sand-engraved-3d',
+    'title': 'نقش',
     'url': 'https://textpro.me/sand-engraved-3d-text-effect-989.html',
   },
   {
-    'title': 'a-summery-sand-writing',
+    'title': 'رمل3',
     'url': 'https://textpro.me/create-a-summery-sand-writing-text-effect-988.html',
   },
   {
-    'title': 'Foil-Balloon--For-Birthday',
+    'title': 'بالون',
     'url': 'https://textpro.me/foil-balloon-text-effect-for-birthday-987.html',
   },
   {
-    'title': '3d-glue--with-realistic-style',
+    'title': 'لاصق',
     'url': 'https://textpro.me/create-3d-glue-text-effect-with-realistic-style-986.html',
   },
   {
-    'title': 'space-3D',
+    'title': 'فضائي',
     'url': 'https://textpro.me/create-space-3d-text-effect-online-985.html',
   },
   {
-    'title': 'Metal-Dark-Gold',
+    'title': 'ذهب-داكن',
     'url': 'https://textpro.me/metal-dark-gold-text-effect-984.html',
   },
   {
-    'title': 'Glitch--Style-Tik-Tok',
+    'title': 'تيكتوك',
     'url': 'https://textpro.me/create-glitch-text-effect-style-tik-tok-983.html',
   },
   {
-    'title': 'a-Stone',
+    'title': 'نيون',
     'url': 'https://textpro.me/create-a-stone-text-effect-online-982.html',
   },
   {
-    'title': 'Neon-Light--With-Galaxy-Style',
+    'title': 'جلاكسيي',
     'url': 'https://textpro.me/neon-light-text-effect-with-galaxy-style-981.html',
   },
   {
-    'title': '1917-Style',
+    'title': '1917-ستيل',
     'url': 'https://textpro.me/1917-style-text-effect-online-980.html',
   },
   {
-    'title': '80\'s-Retro-Neon',
+    'title': 'قديم',
     'url': 'https://textpro.me/80-s-retro-neon-text-effect-online-979.html',
   },
   {
-    'title': 'Minion--3D',
+    'title': 'ديناميكي',
     'url': 'https://textpro.me/minion-text-effect-3d-online-978.html',
   },
   {
-    'title': 'Pornhub-Style-Logo',
+    'title': 'بنهاب',
     'url': 'https://textpro.me/pornhub-style-logo-online-generator-free-977.html',
   },
   {
-    'title': 'Double-Exposure--Black-&-White',
+    'title': 'مزدوج',
     'url': 'https://textpro.me/double-exposure-text-effect-black-white-976.html',
   },
   {
-    'title': 'Holographic-3D',
+    'title': 'هولوجرافي',
     'url': 'https://textpro.me/holographic-3d-text-effect-975.html',
   },
   {
-    'title': '3D-Avengers-logo',
+    'title': 'الافنجرز',
     'url': 'https://textpro.me/create-3d-avengers-logo-online-974.html',
   },
   {
-    'title': 'Metal-Purple-Dual-Effect',
+    'title': 'الاجواني',
     'url': 'https://textpro.me/metal-purple-dual-effect-973.html',
   },
   {
-    'title': 'logo-style-Marvel-studios-Ver:-metal',
+    'title': 'مارفل',
     'url': 'https://textpro.me/create-logo-style-marvel-studios-ver-metal-972.html',
   },
   {
-    'title': 'logo-style-Marvel-studios',
+    'title': 'فضة',
     'url': 'https://textpro.me/create-logo-style-marvel-studios-online-971.html',
   },
   {
-    'title': 'Deluxe-Silver',
+    'title': 'فضة2',
     'url': 'https://textpro.me/deluxe-silver-text-effect-970.html',
-  },
+  }, 
   {
-    'title': 'Color-Full-Luxury-Metal',
+    'title': 'معادن',
     'url': 'https://textpro.me/color-full-luxury-metal-text-effect-969.html',
   },
   {
-    'title': 'Glossy-Blue-Metal',
+    'title': 'جولد',
     'url': 'https://textpro.me/glossy-blue-metal-text-effect-967.html',
   },
   {
-    'title': 'Deluxe-Gold',
+    'title': 'جولد2',
     'url': 'https://textpro.me/deluxe-gold-text-effect-966.html',
   },
   {
-    'title': 'Glossy-Carbon',
+    'title': 'كربون',
     'url': 'https://textpro.me/glossy-carbon-text-effect-965.html',
   },
   {
-    'title': 'Fabric',
+    'title': 'نسيج',
     'url': 'https://textpro.me/fabric-text-effect-online-964.html',
   },
   {
-    'title': 'Neon',
+    'title': 'نينون',
     'url': 'https://textpro.me/neon-text-effect-online-963.html',
   },
   {
-    'title': 'New-Year-Cards-3D-By-Name',
+    'title': 'عيد1',
     'url': 'https://textpro.me/new-year-cards-3d-by-name-960.html',
   },
   {
-    'title': 'Happ-new-year-card-firework-gif',
+    'title': 'عيد2',
     'url': 'https://textpro.me/happ-new-year-card-firework-gif-959.html',
   },
   {
-    'title': 'Fullcolor-Balloon',
+    'title': 'بالون3',
     'url': 'https://textpro.me/fullcolor-balloon-text-effect-958.html',
   },
   {
-    'title': 'Text-Logo-3D-Metal',
+    'title': 'معادنن2',
     'url': 'https://textpro.me/create-text-logo-3d-metal-online-957.html',
   },
   {
-    'title': 'avatar-gold',
+    'title': 'جولد3',
     'url': 'https://textpro.me/create-avatar-gold-online-956.html',
   },
   {
