@@ -167,7 +167,91 @@ ${global.amrr}لوجو-حب
 ${global.amrr}تصميم1
 ${global.amrr}تصميم2
 ${global.amrr}تصميم3
-${global.amrr}مارد
+${global.amrr}لوجو بحر
+${global.amrr}لوجو امريكا
+${global.amrr}لوجو خيال1
+${global.amrr}لوجو قوس-قزح
+${global.amrr}لوجو ماء
+${global.amrr}لوجو عظمي
+${global.amrr}لوجو هالوين
+${global.amrr}لوجو رعب
+${global.amrr}لوجو تخطيط
+${global.amrr}لوجو فضاءي
+${global.amrr}لوجو فضاء
+*${global.amrr}لوجو معدني
+${global.amrr}لوجو معدني2
+${global.amrr}لوجو كامريكا
+${global.amrr}لوجو خيال2
+${global.amrr}لوجو كلاسيكي
+${global.amrr}لوجو رعب-اخضر
+${global.amrr}لوجو محول
+${global.amrr}لوجو توت
+${global.amrr}لوجو الطبقات
+${global.amrr}لوجو رعد
+${global.amrr}لوجو صهريج
+${global.amrr}لوجو حجر
+${global.amrr}لوجو جولد3
+${global.amrr}لوجو عطل
+${global.amrr}لوجو خلل
+${global.amrr}لوجو سطح
+${global.amrr}لوجو زجاج
+${global.amrr}لوجو ورق
+${global.amrr}لوجو ابيض-اسود
+${global.amrr}لوجو انترنت
+${global.amrr}لوجو معدني2
+${global.amrr}لوجو لوحة
+${global.amrr}لوجو قصص
+${global.amrr}لوجو ضباب
+${global.amrr}لوجو شيطاني
+${global.amrr}لوجو محيط
+${global.amrr}لوجو شعار
+${global.amrr}لوجو جرافيت1
+${global.amrr}لوجو جرافيت2
+${global.amrr}لوجو جرافيت3
+${global.amrr}لوجو جرافيت4
+${global.amrr}لوجو ثلج
+${global.amrr}لوجو تكنولوجيا
+${global.amrr}لوجو شتاء
+${global.amrr}لوجو سحابه
+${global.amrr}لوجو ذهب
+${global.amrr}لوجو تدرج
+${global.amrr}لوجو بلاكبينك
+${global.amrr}لوجو مصباح
+${global.amrr}لوجو سحابة1
+${global.amrr}لوجو سحابة2
+${global.amrr}لوجو رمل1
+${global.amrr}وجو رمل2
+${global.amrr} لوجو نقش
+${global.amrr}لوجو رمل3
+${global.amrr}لوجو بالون
+${global.amrr}لوجو لاصق
+${global.amrr}لوجو فضائي
+${global.amrr}لوجو ذهب-داكن
+${global.amrr}لوجو تيكتوك
+${global.amrr}لوجو نيون
+${global.amrr}لوجو جلاكسيي
+${global.amrr}لوجو 1917-ستيل
+${global.amrr}لوجو قديم
+${global.amrr}لوجو ديناميكي
+${global.amrr}لوجو بنهاب
+${global.amrr}لوجو مزدوج
+${global.amrr}لوجو هولوجرافي
+${global.amrr}لوجو الافنجرز
+${global.amrr}وجو الاجواني
+${global.amrr}لوجو مارفل
+${global.amrr}لوجو فضة
+${global.amrr}لوجو فضة2
+${global.amrr}لوجو معادن
+${global.amrr}لوجو جولد
+${global.amrr}جو جولد2
+${global.amrr}وجو كربون
+${global.amrr}لوجو نسيج
+${global.amrr}لوجو نينون
+${global.amrr}لوجو عيد1
+${global.amrr}وجو عيد2
+${global.amrr}لوجو بالون3
+${global.amrr}لوجو معادنن2
+${global.amrr}لوجو جولد3
 ${global.sham3}
 ${global.sham2}
 │┊⩥🌸│الـبـنـك│🌸⩤
