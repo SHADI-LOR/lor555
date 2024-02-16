@@ -178,7 +178,7 @@ ${global.amrr}لوجو رعب
 ${global.amrr}لوجو تخطيط
 ${global.amrr}لوجو فضاءي
 ${global.amrr}لوجو فضاء
-*${global.amrr}لوجو معدني
+${global.amrr}لوجو معدني
 ${global.amrr}لوجو معدني2
 ${global.amrr}لوجو كامريكا
 ${global.amrr}لوجو خيال2
