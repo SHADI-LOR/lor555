@@ -4,17 +4,17 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let chat = global.db.data.chats[m.chat]
 let name = conn.getName(m.sender)
 
-if (/^ڤنوم|فينوم|ڤينوم|فينو$/i.test(m.text) ) { //sin prefijo 
+if (/^بووت١|بوت$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`ڤينوم حاف بدون عمي 🤨`, `ولاد اسمه عمي ڤينوم🤨`])}
+${pickRandom([`_*أمـر يـ عـيـونـي 🤭💮✨*_`, `ايـش بـدك 👀♥️✨`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 }
 
-/*if (/^Mande porno|porno|paja$/i.test(m.text) ) { //sin prefijo 
+/*if (/^بحبك|نتجوز|حبيبتي$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`no puedo esta contra las política del grupo.😸`, `_uff miren un pajero_`, `_pagame y paso mi pack😏🥵_`, `_que_`, `_que quiere pija dice 🤣_`, `_pasa el pack de tu hermana😏_`, `_mire un gilipolla_`, `_siuuu sexo sexo sexo😈_`, '_callate putito_'])}
+${pickRandom([`_*امممم 😳*_`, `*_انا اكتر 🤭🌸_*`, `*_كسووووف 😳_*`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -23,11 +23,11 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 if (/^مين المطور|بتاع مين البوت ده|المطور|مين صاحب البوت ده$/i.test(m.text) ) { //sin prefijo 
     conn.reply(m.chat, `╭┅〘 ⚠️ الـمـطـور ⚠️ 〙*
 ➽🐍 𝑽𝑬𝑵𝑶𝑴
-➽⚜️ wa.me/+201554582851
+➽⚜️ wa.me/+201021889597
 ➽💌 Owner Of bot
 _*هذا رقم مطوري اذ كنت تريد ان عليك ان تدخل و تكتب رساله بدون ازعاج*_
 
-*╰═┅ৡৢ͜͡✦═╡ 𝗔𝗡𝗜𝗠𝗘 𝗕𝗢𝗧 ╞═┅ৡৢ͜͡✦═╯*`, m)
+*╰═┅ৡৢ͜͡✦═╡ 𝑽𝒆𝒏𝒐𝒎 𝑫𝑺𝑽 ╞═┅ৡৢ͜͡✦═╯*`, m)
 
 }
 
