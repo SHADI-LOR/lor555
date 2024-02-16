@@ -22,7 +22,7 @@ let text
       "format": "png",
       "backgroundColor": "#000000",
       "width": 512,
-      "height": 768,
+      "height": 680,
       "scale": 2,
       "messages": [{
          "entities": [],
@@ -50,6 +50,6 @@ let text
 
 handler.help = ['qc']
 handler.tags = ['sticker']
-handler.command = /^(ستيكر)$/i
+handler.command = /^(ستك)$/i
 handler.limit = 1
 export default handler
