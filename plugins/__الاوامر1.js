@@ -32,7 +32,7 @@ ${global.sham2}
 │┊قـائـمـه بـوت تـوكـا ⁦(⁠◕⁠ᴗ⁠◕⁠✿⁠)⁩
 ${global.sham3}
 ${global.sham2}
-│┊⩥💜│الاسـاسـيـات│💜⩤
+│┊⩥🌸│الاسـاسـيـات│🌸⩤
 ${global.sham3}
 ${global.sham2}
 ${global.amrr}صلح
@@ -48,7 +48,7 @@ ${global.amrr}الجروبات
 ${global.amrr}البوتات
 ${global.sham3}
 ${global.sham2}
-│┊⩥💜│الـذكـاء الاصطناعي/ia│💜⩤
+│┊⩥🌸│الـذكـاء الاصطناعي/ia│🌸⩤
 ${global.sham3}
 ${global.sham2}
 ${global.amrr}فينوم
@@ -57,7 +57,7 @@ ${global.amrr}ارسم
 ${global.amrr}تحدث
 ${global.sham3}
 ${global.sham2}
-│┊⩥💜│الـجـروبـ│💜⩤
+│┊⩥🌸│الـجـروبـ│🌸⩤
 ${global.sham3}
 ${global.sham2}
 ${global.amrr}اضف
@@ -76,7 +76,7 @@ ${global.amrr}الادمن
 ${global.amrr}حذف
 ${global.sham3}
 ${global.sham2}
-│┊⩥💜│الالـعـاب│💜⩤
+│┊⩥🌸│الالـعـاب│🌸⩤
 ${global.sham3}
 ${global.sham2}
 ${global.amrr}اكس
@@ -103,7 +103,7 @@ ${global.amrr}لعبة
 ${global.amrr}موتتي
 ${global.sham3}
 ${global.sham2}
-│┊⩥💜│الاعـضـاء│💜⩤
+│┊⩥🌸│الاعـضـاء│🌸⩤
 ${global.sham3}
 ${global.sham2}
 ${global.amrr}تطقيم
@@ -129,7 +129,7 @@ ${global.amrr}رونالدو
 ${global.amrr}كيوت
 ${global.sham3}
 ${global.sham2}
-│┊⩥💜│التـحـمـيـل│💜⩤
+│┊⩥🌸│التـحـمـيـل│🌸⩤
 ${global.sham3}
 ${global.sham2}
 ${global.amrr}يوتيوب
@@ -143,7 +143,7 @@ ${global.amrr}صوره
 ${global.amrr}جوجل
 ${global.sham3}
 ${global.sham2}
-│┊⩥💜│الـبـنـك│💜⩤
+│┊⩥🌸│الـبـنـك│🌸⩤
 ${global.sham3}
 ${global.sham2}
 ${global.amrr}راتب
@@ -158,7 +158,7 @@ ${global.amrr}رصيدي
 ${global.amrr}الماسي
 ${global.sham3}
 ${global.sham2}
-│┊⩥💜│الاصـوات│💜⩤
+│┊⩥🌸│الاصـوات│🌸⩤
 ${global.sham3}
 ${global.sham2}
 ${global.amrr}رفيع
@@ -173,6 +173,18 @@ ${global.amrr}عميق
 ${global.amrr}بطيء
 ${global.amrr}سريع
 ${global.sham3}
+${global.sham2}
+│┊⩥🌸│الـحـصـري│🌸⩤
+${global.sham3}
+${global.sham2}
+${global.amrr}جيب
+${global.amrr}دونات
+${global.amrr}قلوب
+${global.amrr}ابعت
+${global.amrr}فعاليات 
+${global.amrr}مارد
+${global.sham3}
+
 ${global.sham4}
 
 `
