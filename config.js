@@ -132,7 +132,7 @@ global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = '🇪🇬' //agrega tú país ejemplo: 🇪🇨
 
-global.packname = "𝑻𝑶𝑼𝑲𝑨 𝑩𝑶𝑻 🌸"
+global.packname = " ✧ 𝑴𝒊𝒕𝒔𝒖𝒓𝒊 𝑩𝑶𝑻 🌸"
 global.author = "𝑽𝑬𝑵𝑶𝑴 𝑿𝑶𝑽"
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
@@ -140,7 +140,7 @@ global.author = "𝑽𝑬𝑵𝑶𝑴 𝑿𝑶𝑽"
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
 
-global.gt = "𝑻𝑶𝑼𝑲𝑨 𝑩𝑶𝑻 🌸"
+global.gt = " ✧ 𝑴𝒊𝒕𝒔𝒖𝒓𝒊 𝑩𝑶𝑻 🌸"
 global.yt = "https://youtube.com/@venomov_11"
 global.yt2 = "https://youtube.com/@venomov_11?si=JxloGjyd0LJJacbs"
 global.ig = "https://instagram.com/venom_y_11"
@@ -205,8 +205,8 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = "𝑻𝑶𝑼𝑲𝑨 𝑩𝑶𝑻 🌸"
-global.igfg = "𝑻𝑶𝑼𝑲𝑨 𝑩𝑶𝑻 🌸"
+global.wm = " ✧ 𝑴𝒊𝒕𝒔𝒖𝒓𝒊 𝑩𝑶𝑻 🌸"
+global.igfg = " ✧ 𝑴𝒊𝒕𝒔𝒖𝒓𝒊 𝑩𝑶𝑻 🌸"
 global.wait = "*⌛ ▬▭▭▭▭▭▭*"
 global.waitt = "*⌛ ▬▬▭▭▭*"
 global.waittt = "*⌛ ▬▬▬▬▭▭*"
