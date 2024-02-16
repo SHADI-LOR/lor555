@@ -16,7 +16,7 @@ let handler = async(m, { conn }) => {
     }
 }
 
-handler.customPrefix = /@201554582851/i 
+handler.customPrefix = /@201554582851|@201021889597/i 
 handler.command = new RegExp
 handler.exp = 50
 export default handler
