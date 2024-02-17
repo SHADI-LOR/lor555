@@ -17,7 +17,7 @@ let clue = _clue.replace(/[A-Za-z]/g, '_')
 let caption = `ⷮ ⟣┈┈┈┈┈┈┈┈┈┈┈┈┈┈⟢\n ${json.question}
 ⟣⟤ الـوقـت ⏲️ ⩥ ${(timeout / 1000).toFixed(2)} ثــانــيــه
 ⟣⟤ الـجـائـزة 💵 ⩥ ${poin} نقاط
-𝑻𝑶𝑼𝑲𝑨 𝑩𝑶𝑻 🌸
+𝑀𝑖𝑡𝑠𝑢𝑟𝑖 𝐵𝑜𝑡 🌸✨
 ⟣┈┈┈┈┈┈┈┈┈┈┈┈┈┈⟢
 `.trim()
 conn.tekateki[id] = [
