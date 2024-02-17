@@ -20,7 +20,7 @@ let caption = `${eg}
 ┃ ${mime}`.trim()
 conn.reply(m.chat, caption, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝑻𝑶𝑼𝑲𝑨 𝑩𝑶𝑻 🌸',
+title: '𝑀𝑖𝑡𝑠𝑢𝑟𝑖 𝐵𝑜𝑡 🌸✨',
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: fs.readFileSync("./vmenus/Menu3.jpg"),
 sourceUrl:`https://youtube.com/@venomov_12`}})
