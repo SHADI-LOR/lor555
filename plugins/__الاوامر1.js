@@ -134,6 +134,7 @@ ${global.amrr}ملصق
 ${global.amrr}استيكر
 ${global.amrr}سرقه
 ${global.amrr}ستك
+${global.amrr}الطقس
 ${global.amrr}توب
 ${global.amrr}جوده
 ${global.amrr}تليجراف
