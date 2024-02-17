@@ -24,7 +24,7 @@ m.react(rwait);
     const infonya_gan =`✅ اتفضل يحب`;
 
     if (videoURL || videoURLWatermark) {
-      await conn.sendFile(m.chat, videoURL, 'tiktok.mp4', `𝑻𝑶𝑼𝑲𝑨 ⚡𝑨𝑵𝑫⚡ 𝑍𝑂𝑅𝑂\n\n${infonya_gan}`, m);
+      await conn.sendFile(m.chat, videoURL, 'tiktok.mp4', `𝑴𝑰𝑻𝑺𝑼𝑹𝑰 ⚡𝑨𝑵𝑫⚡ 𝑍𝑂𝑅𝑂\n\n${infonya_gan}`, m);
       setTimeout(async () => {
         m.react(done); 
       }, 5000);
