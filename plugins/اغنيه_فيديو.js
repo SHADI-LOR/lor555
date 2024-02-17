@@ -20,7 +20,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 *🌸⚡ المدة:* ${secondString(yt_play[0].duration.seconds)}*
 *🌸⚡انتظر حتي يتم تحميل ${additionalText}*
 *انت مسؤل عن ذنوب اغانيك*
-𝑻𝑶𝑼𝑲𝑨 𝑩𝑶𝑻 🌸`.trim();
+𝑀𝑖𝑡𝑠𝑢𝑟𝑖 𝐵𝑜𝑡 🌸✨`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'اغنيه') {
       try {
