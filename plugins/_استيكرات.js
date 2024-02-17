@@ -2,8 +2,7 @@ import { sticker } from '../lib/sticker.js'
 
 let handler = async(m, { conn }) => {
     const venomStickers = [
-   "https://telegra.ph/file/dd6ad352f751ca003fd47.jpg",
-"https://telegra.ph/file/a82fe14347a4c8dcacf48.jpg"
+   "https://telegra.ph/file/99a9b230cd69fadd104ac.jpg",
     ];
 
     const sukunaStickers = [
