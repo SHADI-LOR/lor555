@@ -11,7 +11,7 @@ if (text.includes('+')) throw  `${lenguajeGB['smsAvisoMG']()}حط الرقم ك�
 let group = m.chat
 let link = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group)
 
-      await conn.reply(text+'@s.whatsapp.net', `مرحبا فيك معك ايتاتشي بوت تم استخدم احد من المشرفين لاضافتك ولككن لا يمكنني اضافتك ف لهاذا قمت ارسال رابط اليك!!\n\n${link}`, m, {mentions: [m.sender]})
+      await conn.reply(text+'@s.whatsapp.net', `مرحبا فيك معك ميستوري بوت تم استخدم احد من المشرفين لاضافتك ولككن لا يمكنني اضافتك ف لهاذا قمت ارسال رابط اليك!!\n\n${link}`, m, {mentions: [m.sender]})
         m.reply(`*@${who.split`@`[0]}*\n*إرسال دعوة إلى الخاص بك...*`) 
 
 }
