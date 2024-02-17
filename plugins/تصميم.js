@@ -1,6 +1,6 @@
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 	let tee = `✳️ ادخل النص\n\n📌 مثل  : *${usedPrefix + command}* VENOM\n*لصنع لك لوجو احترافي`
-	let too = `✳️ ادخل نص مثل *+* \n\n📌 Example : \n*${usedPrefix + command}* TOUKA *+* BOT`
+	let too = `✳️ ادخل نص مثل *+* \n\n📌 Example : \n*${usedPrefix + command}* MITSURI *+* BOT`
 	
 	m.react(rwait);
 	
