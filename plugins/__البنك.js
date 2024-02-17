@@ -1,28 +1,12 @@
-import fetch from 'node-fetch';
+هههههimport fetch from 'node-fetch';
 
 let handler = async (m, { conn, usedPrefix, command }) => {
     try {
         let info9 = `
-${global.sham1}
-${global.sham2}
-│┊⩥💜│قـسـم الـبـنـك│💜⩤
-${global.sham3}
-${global.sham2}
-${global.amrr8}راتب
-${global.amrr8}يومي 
-${global.amrr8}اسبوعي
-${global.amrr8}شهري
-${global.amrr8}هديتي
-${global.amrr8}تحويل
-${global.amrr8}لفل
-${global.amrr8}خبرات
-${global.amrr8}رصيدي
-${global.amrr8}الماسي
-${global.sham3}
-${global.sham4}
+إليك عددت استخدامات للفعاليات لديك *"كتابه"* يبعت اسم شخصية عشوائي ومن يكتبها الاول يافوز و لديك *"تفكيك"* تفكك الاسم تفوز و لديك *"ترتيب"* ترتب الاسم تفوز
 `;
 
-        const imageURL9 = 'https://telegra.ph/file/6190bd02915140738ed38.jpg';
+        const imageURL9 = 'https://telegra.ph/file/e80f34f9011ec738ddc48.jpg';
 
         await conn.sendMessage(m.chat, { image: { url: imageURL9 }, caption: info9 });
     } catch (error) {
@@ -30,6 +14,6 @@ ${global.sham4}
     }
 };
 
-handler.command = /^البنك|ت10$/i;
+handler.command = /^فعاليات$/i;
 
 export default handler;
