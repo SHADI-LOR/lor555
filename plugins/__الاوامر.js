@@ -44,7 +44,7 @@ let str = `
 ✧🍇╽الوقت ↰ *${uptime}*
 ✧🍇╽اليوم ↰ *${week}*
 ✧🍇╽التاريخ ↰ *${date}*
-✧🍇╽المنصه ↰ *REPLIT*
+✧🍇╽المنصه ↰ *Heroku*
 ✧🍇╽البرمجه ↰ *Python -JS*
 ⟣⟝┈┈┈┈┈┈┈┈⟞⟢
 ֎🍄╽الاسـتـخـدام ↶
@@ -72,7 +72,7 @@ let str = `
 ✧🛡️╽الدعم ↰
 ♡ رابط ↶
 ┐┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┌ـ
-ـ: ~_*https://chat.whatsapp.com/EwuVx8fnhHs4epxizqVdyE*_~
+ـ: https://chat.whatsapp.com/GM4WG6c247OAbciHtAlRGx~_* ـ*_~
 ┘┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈└ـ
 
 `.trim();
