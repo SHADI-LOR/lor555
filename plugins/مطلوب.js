@@ -29,6 +29,6 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 handler.help = ['wanted'];
 handler.tags = ['meme'];
-handler.command = ['مطلوب'];
+handler.command = ['مطلوبب'];
 
 export default handler;
