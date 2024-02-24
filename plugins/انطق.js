@@ -28,7 +28,7 @@ let done = '🫧';
 }
 handler.help = ['tts <lang> <task>']
 handler.tags = ['tools']
-handler.command = ['tts', 'voz','انطق','نطق','قول','قل','بگو','إنطق']
+handler.command = ['tts','انطق','إنطق']
 
 export default handler
 
