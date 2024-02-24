@@ -144,17 +144,17 @@ global.gt = " ✧ 𝑴𝒊𝒕𝒔𝒖𝒓𝒊 𝑩𝑶𝑻 🌸"
 global.yt = "https://youtube.com/@venomov_11"
 global.yt2 = "https://youtube.com/@venomov_11?si=JxloGjyd0LJJacbs"
 global.ig = "https://instagram.com/venom_y_11"
-global.md = "https://www.atom.bio/venomov-md/"
-global.fb = "https://chat.whatsapp.com/JXZC2TWCc5rIhSKP7WPaBz"
+global.md = "https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v"
+global.fb = "https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v"
 
-global.nna = 'https://chat.whatsapp.com/JXZC2TWCc5rIhSKP7WPaBz' //CANAL UPDATE
-global.nn2 = 'https://chat.whatsapp.com/JXZC2TWCc5rIhSKP7WPaBz' //UPDATE
-global.nna2 = 'https://chat.whatsapp.com/KIgXTn9eNGL5pwqEsO9PIp' //Help
-global.nn = 'https://chat.whatsapp.com/EEcq5b6fEVp4zTD29EOFjl' // 1
-global.nnn = 'https://chat.whatsapp.com/EEcq5b6fEVp4zTD29EOFjl' //Grupo 2
-global.nnnt = 'https://chat.whatsapp.com/IWSmG1GYdJ9JKU7gePn8ZE' //Grupo 3
-global.nnntt = 'https://chat.whatsapp.com/IWSmG1GYdJ9JKU7gePn8ZE' //Grupo 4
-global.nnnttt = 'https://chat.whatsapp.com/IGjMmSEglvj8s8u8OvRXhP' //وقفنا هنا تمام
+global.nna = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //CANAL UPDATE
+global.nn2 = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //UPDATE
+global.nna2 = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //Help
+global.nn = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' // 1
+global.nnn = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //Grupo 2
+global.nnnt = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //Grupo 3
+global.nnntt = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //Grupo 4
+global.nnnttt = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //وقفنا هنا تمام
 global.nnnttt1 = 'https://youtube.com/@venomov_11'; //Grupo 6 COL
 global.nnnttt2 = 'https://instagram.com/venom_y_11' //Grupo 7 COL
 global.nnnttt3 = 'https://youtube.com/@venomov_11' //Grupo 8 COL
