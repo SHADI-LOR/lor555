@@ -19,25 +19,25 @@ let handler = async (m, {
     let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/a2ae6cbfa40f6eeea0cf1.jpg')
 
     const obj = {
-        "type": "quote",
-        "format": "png",
-        "backgroundColor": "#000000",
-        "width": 256, // تم تغيير العرض إلى 256
-        "height": 340, // تم تغيير الطول إلى 340
-        "scale": 2,
-        "messages": [{
-            "entities": [],
-            "avatar": true,
-            "from": {
-                "id": 1,
-                "name": m.name,
-                "photo": {
-                    "url": pp
-                }
-            },
-            "text": text,
-            "replyMessage": {}
-        }]
+    "type": "quote",
+    "format": "png",
+    "backgroundColor": "#000000",
+    "width": 128, // تم تغيير العرض إلى 128
+    "height": 170, // تم تغيير الطول إلى 170
+    "scale": 2,
+    "messages": [{
+        "entities": [],
+        "avatar": true,
+        "from": {
+            "id": 1,
+            "name": m.name,
+            "photo": {
+                "url": pp
+            }
+        },
+        "text": text,
+        "replyMessage": {}
+    }]
     }
     const json = await axios.post('https://bot.lyo.su/quote/generate', obj, {
         headers: {
