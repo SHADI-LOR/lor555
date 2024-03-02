@@ -945,7 +945,7 @@ if (typeof chat !== 'object')
 global.db.data.chats[m.chat] = {}
 
 if (chat) {
-if (!('isBanned' in chat)) chat.isBanned = false                    
+if (!('isBanned' in chat)) chat.isBanned = true                   
 if (!('welcome' in chat)) chat.welcome = true                    
 if (!('detect' in chat)) chat.detect = true                    
 if (!('sWelcome' in chat)) chat.sWelcome = ''                    
@@ -953,13 +953,13 @@ if (!('sBye' in chat)) chat.sBye = ''
 if (!('sPromote' in chat)) chat.sPromote = ''                    
 if (!('sDemote' in chat)) chat.sDemote = '' 
 if (!('delete' in chat))
-chat.delete = true                    
+chat.delete = false                    
 if (!('modohorny' in chat)) chat.modohorny = false                    
 if (!('stickers' in chat)) chat.stickers = false                   
 if (!('autosticker' in chat)) chat.autosticker = false                      
 if (!('audios' in chat)) chat.audios = true                     
 if (!('antiver' in chat)) chat.antiver = false                  
-if (!('antiLink' in chat)) chat.antiLink = false                    
+if (!('antiLink' in chat)) chat.antiLink = true                   
 if (!('antiLink2' in chat)) chat.antiLink2 = false
 if (!('antiTiktok' in chat)) chat.antiTiktok = false
 if (!('antiYoutube' in chat)) chat.antiYoutube = false
