@@ -21,7 +21,7 @@ console.log(e)
 }} 
 handler.help = ['linkgroup']
 handler.tags = ['group']
-handler.command = /^enlace|لينك|رابط|الينك|الرابط|link(gro?up)?$/i
+handler.command = /^enlace|الينك|link(gro?up)?$/i
 handler.group = true
 handler.botAdmin = true
 export default handler
