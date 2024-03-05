@@ -9,7 +9,7 @@ let handler = async (m, { usedPrefix, command, text }) => {
 }
 handler.help = ['getplugin'].map(v => v + ' <teks>')
 handler.tags = ['host']
-handler.command = /^(موارد-بلجنز)$/i
+handler.command = /^(موارد-فينوم)$/i
 
 handler.rowner = true
 
