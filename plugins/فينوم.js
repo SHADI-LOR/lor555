@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { text, conn, usedPrefix, command }) => {
   if (!text && !(m.quoted && m.quoted.text)) {
-    throw `⟣⟤ 🖤⚡\nادخل السوأل أو المعلومة الذي تريد أن ڤينوم أن يرد عليها\n*⟣⟤ مثل*\n⟣⟤ .فينوم هات معلومات عن اسم ڤينوم\n⟣⟤ .فينوم اشرح function في لغة جافا سكريبت\n⟣⟤ .فينوم هات نصائح`;
+    throw `⟣⟤ 🖤⚡\nادخل السوأل أو المعلومة الذي تريد من لــور  أن ترد عليها\n*⟣⟤ مثل*\n⟣⟤ .لور اعطيني معنى اسم لور\n\n⟣⟤ .لور اعطيني نصائح`;
   }
 
   if (!text && m.quoted && m.quoted.text) {
@@ -72,6 +72,6 @@ let fgytSrdf = 'https://telegra.ph/file/a4ead8bc4d43191fabfe2.jpg'
 };
 handler.help = ['chatgpt']
 handler.tags = ['AI']
-handler.command = ['فينوم','ڤينوم'];
+handler.command = ['لور','لور'];
 
 export default handler;
