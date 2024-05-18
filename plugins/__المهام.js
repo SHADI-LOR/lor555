@@ -20,7 +20,7 @@ const d = new Date(new Date + 3600000);
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/278d4552ebe00f5d279b5.jpg','https://telegra.ph/file/8637bddcaaad561c26233.jpg');
   const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
-    await conn.reply(m.chat, 'يـتـم تـجـهيـز الـقـائـمـه⏳*',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '✧ 𝑀𝑖𝑡𝑠𝑢𝑟𝑖 𝐵𝑜𝑡 🌸✨', body: 'bienvenido', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
+    await conn.reply(m.chat, '*يـتـم تـجـهيـز الـقـائـمـه⏳*',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '𝚂𝚁 𝙻𝙾𝚁 𝙱𝙾𝚃 🕸️', body: 'bienvenido', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
 //m.react('📂');
     await conn.sendMessage(m.chat, { react: { text: '📂', key: m.key } })
   let txt = `
