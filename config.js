@@ -141,11 +141,11 @@ global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
 
 global.gt = "𝚂𝚁 𝙻𝙾𝚁 𝙱𝙾𝚃"
-global.yt = "https://youtube.com/@venomov_11"
-global.yt2 = "https://youtube.com/@venomov_11?si=JxloGjyd0LJJacbs"
-global.ig = "https://instagram.com/venom_y_11"
-global.md = "https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v"
-global.fb = "https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v"
+global.yt = "https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a"
+global.yt2 = "https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a"
+global.ig = "https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a"
+global.md = "https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a"
+global.fb = "https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a"
 
 global.nna = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //CANAL UPDATE
 global.nn2 = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //UPDATE
