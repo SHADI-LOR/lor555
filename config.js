@@ -11,13 +11,13 @@ import { ar } from "./lib/idiomas/total-idiomas.js"
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-["201021889597", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
-["201066826750"], 
-["201554582851"], 
-["201289863299"], 
-["201554582851"],
-["201033024135"],
-["201554582851"]]
+["966546999093", '𝚂𝚁 𝙻𝙾𝚁 𝙱𝙾𝚃', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+["966546999093"], 
+["966546999093"], 
+["966546999093"], 
+["966546999093"],
+["966546999093"],
+["966546999093"]]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -27,7 +27,7 @@ global.botNumberCode = "" //Ejemplo: +59309090909
 global.confirmCode = ""
 
 global.mods = []
-global.prems = ["201554582851"]
+global.prems = ["966546999093"]
 //key de violetics
 global.Key360 = ["964f-0c75-7afc"]
    
@@ -116,52 +116,52 @@ global.sham1 = '┐┬┈┈┈⟛⟞ـ•𓆩♥️𓆪•ـ⟝⟛┈┈┈⟢'
 global.sham2 = '┐┈┈┈⟛⟞ـ•𓆩♥️𓆪•ـ⟝⟛┈┈┈⟢';
 global.sham3 = '┘┈┈┈⟛⟞ـ•𓆩♥️𓆪•ـ⟝⟛┈┈┈⟢';
 global.sham4 = '┘┴┈┈┈⟛⟞•ـ𓆩♥️𓆪ـ•⟝⟛┈┈┈⟢';
-global.veeenom = '201554582851'
+global.veeenom = '966546999093'
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.official = [ // Agregate si eres Owner
-["201554582851", '𝙑𝙀𝙉𝙊𝙈 𝙊𝙑 💻', 1], 
-["201289863299", '♡𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼♡', 1],  
-["201554582851", '𝙑𝙀𝙉𝙊𝙈 𝙈𝘿 💻', 1],
-["201033024135", '𝙎𝙊𝙆𝙐𝙉𝘼 𝙈𝘿 💻', 1],
-["201554582851", 'Prueba', 1]]
+["966546999093", '𝚂𝚁 𝙻𝙾𝚁 𝙱𝙾𝚃', 1], 
+["966546999093", '𝚂𝚁 𝙻𝙾𝚁 𝙱𝙾𝚃', 1],  
+["966546999093", '𝚂𝚁 𝙻𝙾𝚁 𝙱𝙾𝚃', 1],
+["966546999093", '𝚂𝚁 𝙻𝙾𝚁 𝙱𝙾𝚃', 1],
+["966546999093", 'Prueba', 1]]
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = '🇪🇬' //agrega tú país ejemplo: 🇪🇨
 
-global.packname = " ✧ 𝑴𝒊𝒕𝒔𝒖𝒓𝒊 𝑩𝑶𝑻 🌸"
-global.author = "𝑽𝑬𝑵𝑶𝑴 𝑿𝑶𝑽"
+global.packname = "𝚂𝚁 𝙻𝙾𝚁 𝙱𝙾𝚃"
+global.author = "𝚂𝚁 𝙻𝙾𝚁 𝙱𝙾𝚃"
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
 
-global.gt = " ✧ 𝑴𝒊𝒕𝒔𝒖𝒓𝒊 𝑩𝑶𝑻 🌸"
+global.gt = "𝚂𝚁 𝙻𝙾𝚁 𝙱𝙾𝚃"
 global.yt = "https://youtube.com/@venomov_11"
 global.yt2 = "https://youtube.com/@venomov_11?si=JxloGjyd0LJJacbs"
 global.ig = "https://instagram.com/venom_y_11"
 global.md = "https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v"
 global.fb = "https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v"
 
-global.nna = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //CANAL UPDATE
-global.nn2 = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //UPDATE
-global.nna2 = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //Help
-global.nn = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' // 1
-global.nnn = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //Grupo 2
-global.nnnt = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //Grupo 3
-global.nnntt = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //Grupo 4
-global.nnnttt = 'https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v' //وقفنا هنا تمام
-global.nnnttt1 = 'https://youtube.com/@venomov_11'; //Grupo 6 COL
-global.nnnttt2 = 'https://instagram.com/venom_y_11' //Grupo 7 COL
-global.nnnttt3 = 'https://youtube.com/@venomov_11' //Grupo 8 COL
-global.nnnttt4 = 'https://instagram.com/venom_y_11' //Grupo 9 COL
-global.nnnttt5 = 'https://youtube.com/@venomov_11' //A.T.M.M
-global.paypal = 'https://instagram.com/venom_y_11'
-global.asistencia = 'Wa.me/201554582851' 
+global.nna = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //CANAL UPDATE
+global.nn2 = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //UPDATE
+global.nna2 = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //Help
+global.nn = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' // 1
+global.nnn = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //Grupo 2
+global.nnnt = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //Grupo 3
+global.nnntt = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //Grupo 4
+global.nnnttt = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //وقفنا هنا تمام
+global.nnnttt1 = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a'; //Grupo 6 COL
+global.nnnttt2 = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //Grupo 7 COL
+global.nnnttt3 = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //Grupo 8 COL
+global.nnnttt4 = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //Grupo 9 COL
+global.nnnttt5 = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a' //A.T.M.M
+global.paypal = 'https://whatsapp.com/channel/0029VaZwEwmHAdNR6lyWbt0a'
+global.asistencia = 'Wa.me/966546999093' 
 
 global.nyyyo = [nn, nnn, nnnt, nnntt, nnnttt]
 //Dudas? escríbeme...
@@ -205,13 +205,13 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = " ✧ 𝑴𝒊𝒕𝒔𝒖𝒓𝒊 𝑩𝑶𝑻 🌸"
-global.igfg = " ✧ 𝑴𝒊𝒕𝒔𝒖𝒓𝒊 𝑩𝑶𝑻 🌸"
+global.wm = "𝚂𝚁 𝙻𝙾𝚁 𝙱𝙾𝚃"
+global.igfg = "𝚂𝚁 𝙻𝙾𝚁 𝙱𝙾𝚃"
 global.wait = "*⌛ ▬▭▭▭▭▭▭*"
 global.waitt = "*⌛ ▬▬▭▭▭*"
 global.waittt = "*⌛ ▬▬▬▬▭▭*"
 global.waitttt = "*⌛ ▬▬▬▬▬▬▭*"
-global.nomorown = "201554582851"
+global.nomorown = "966546999093"
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
