@@ -28,7 +28,7 @@ let videoUrl = 'https://telegra.ph/file/7e9b388a0f8022dce75fc.mp4';
 let { min, xp, max } = xpRange(user.level, global.multiplier)
 let username = conn.getName(who)
 let math = max - xp
-let rwait ='🍉'
+let rwait ='📑'
 let sn = createHash('md5').update(who).digest('hex')
 let totalreg = Object.keys(global.db.data.users).length;
 let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length 
@@ -38,49 +38,34 @@ let venom = "@201554582851";
   const taguser = '@' +  m.sender.split('@s.whatsapp.net')[0];
   m.react(rwait)
 let str = `
-💗 ◈مـرحـبـاً بـك فـي بـوت ميتسوري◈ 💗 
-⟣⟝┈┈┈┈┈┈┈┈⟞⟢
-✧🍇╽المستخدم ↰ *${taguser}*
-✧🍇╽الوقت ↰ *${uptime}*
-✧🍇╽اليوم ↰ *${week}*
-✧🍇╽التاريخ ↰ *${date}*
-✧🍇╽المنصه ↰ *Heroku*
-✧🍇╽البرمجه ↰ *Python -JS*
-⟣⟝┈┈┈┈┈┈┈┈⟞⟢
-֎🍄╽الاسـتـخـدام ↶
-⟣⟝┈┈┈┈┈┈┈┈⟞⟢
-┐┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┌ـ
+*🤖┆𝐒𝐑 𝐋𝐎𝐑 𝐁𝐎𝐓 ⥑*
+
+اهـ⸂ ${taguser} ⸃ــلاً
+*★╎التاريخ⥎${date} ⥑*
+*★╎الوقت⥎${uptime} ⥑*
+*★╎المستخدمين⥎ ${rtotalreg} ⥑*
+
+· • •﹝🕸️﹞• • ·
+*「مـعـلـومـاتـك ¦ 👤」*
+*★╎المستوى📯⥎${level} ⥑*
+*★╎الخبرة👾⥎${exp} ⥑*
+*★╎الرتبة🦾⥎${role} ⥑*
+*★╎الألماس💎⥎${limit} ⥑*
+*★╎التوكن🕸️⥎${joincount} ⥑*
+*★╎الذهب🪙⥎${money} ⥑*
+*★╎مميز🎩⥎ ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''} ⥑*
+· • •﹝🕸️﹞• • ·
+
+*「𝐑𝐀𝐑𝐄 𝐏𝐈𝐄𝐂𝐄 ¦ 🕷️」*
+
+ ˼‏📮˹↫ https://bit.ly/SR_RAREPIECE
+
+ *|👩🏻‍💻⥑ الـمـطـوره ⦂「 هـانـکـوک🕸️ 」*
+· • •﹝🕸️﹞• • ·
 ➀اذا كنت تريد اظهار جميع اوامر البوت
 ➁استخدم *↰ .المهام ↱* ليتم بعت الاوامر
 ➂استخدم الاوامر بشكل منتظم ارجوك
-┘┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈└ـ
-⟣⟝┈┈┈┈┈┈┈┈⟞⟢
-֎🎃╽بــنــك الـبـوت ↶
-⟣⟝┈┈┈┈┈┈┈┈⟞⟢
-•🫐⧜⧽ *#تعليم*
-•🫐⧜⧽ *#البنك*
-•🫐⧜⧽ *#المتجر*
-•🫐⧜⧽ *#عروض*
-⟣⟝┈┈┈┈┈┈┈┈⟞⟢
-֎⚜️╽الـمـطـوريـن ↶
-⟣⟝┈┈┈┈┈┈┈┈⟞⟢
-✧⚡╽المطور¹ ↰ *+201021889597*
-✧⚡╽المطور² ↰ *+201033024135*
-⟣⟝┈┈┈┈┈┈┈┈⟞⟢
-֎👥╽حـسـابـات ↶
-⟣⟝┈┈┈┈┈┈┈┈⟞⟢
-✧🍎╽يوتيوب ↰
-♡ رابط : *${global.yt}*
-✧🍎╽انستغرام ↰
-♡ رابط : *${global.ig}*
-✧🍎╽ريبليت ↰
-♡ رابط : *https://replit.com/@VENOMOV*
-⟣⟝┈┈┈┈┈┈┈┈⟞⟢
-✧🛡️╽الدعم ↰
-♡ رابط ↶
-┐┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┌ـ
-ـ: *_https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v_*
-┘┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈└ـ
+*· • • ╼╃✦⊰ •﹝🕸️﹞• ⊱✦╄╾ • • ·*ـ
 
 `.trim();
 
