@@ -1,55 +1,118 @@
-let handler = m => m
-handler.all = async function (m) {
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-let chat = global.db.data.chats[m.chat]
-let name = conn.getName(m.sender)
+//*رد بوت ساسكي تبع ايتاتشي
+// معلش ي ايتاتشي كسلت اعمل واحده 😀
+// اعمل واحده بس احط رد تل
 
-if (/^البوت|البووت|بوت$/i.test(m.text) ) { //sin prefijo 
-    let teks = `
-${pickRandom([`اسمي لــور لو سمحت انسان غبي``انا لوررررر`])}
-`.trim()
-conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+let handler = m => m; 
+ handler.all = async function (m) { 
 
-}
-
-if (/^بحبك|احبك|أحبك$/i.test(m.text) ) { //sin prefijo 
-    let teks = `
-${pickRandom([`انقلع✋🏻` `مو وقتك انسان غبي`])}
-`.trim()
-conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
-
-}
-
-if (/^مين المطور|بتاع مين البوت ده|المطور|مين صاحب البوت ده$/i.test(m.text) ) { //sin prefijo 
-    conn.reply(m.chat, `لـوفي | +966 54 699 9093`, m)
-
-}
-
-/* if (/^hola|halo|hello|hi$/i.test(m.text) ) { //sin prefijo 
-     conn.reply(m.chat, `Hola :D`, fkontak, m)
-
- }*/
+   let chat = global.db.data.chats[m.chat]; 
+   let responses; 
+   if (/^هلا$/i.test(m.text)) { 
+     responses = [ 
+ '*منورنا*'  
+     ]; 
+} else if (/^السلام عليكم|سلام عليكم ورحمه الله وبركاته|سلام عليكم|السلام عليكم ورحمه الله وبركاته$/i.test(m.text)) { 
+     responses = [ 
+       '*وعليكم السلام ورحمة الله وبركاته*',  
+     ]; 
  
-if (/^مساعده|كيف استخدم البوت|بوت عطلان|ازاي استخدم البوت|ازاي استخدم الاوامر$/i.test(m.text) ) { //sem prefixo
-    conn.reply(m.chat, `╭┄〔 *${wm}* 〕┄⊱
+ }else if (/^كيف حالك|اخبارك|كيفك$/i.test(m.text)) { 
+     responses = [ 
+'*بخير الحمدلله وانت 🫀*'
+     ]; 
+   }else if (/^غبي | أحمق | حماره | حمار$/i.test(m.text)) { 
+     responses = [ 
+'*من زينك 😴*'
+   ]; 
+   }else if (/^تحبني|مين يحبني$/i.test(m.text)) { 
+     responses = [ 
+'*لا ما احبك*',
+'*ورع*',
+'*برااااا 🔚*',
+]; 
+   }else if (/^تكرهني؟$/i.test(m.text)) { 
+     responses = [ 
+'*ماعاش من يكرهكك حبي 🙁*',
+'*لا بس لا تتعب نفسك لحبك🫥*',
+'*ااي اكرهك🙄*',   ]; 
+     
+     }else if (/^هاي|هالو$/i.test(m.text)) { 
+     responses = [ 
+       '*السلام عليكم ورحمة الله وبركاته وليس هاي ياطفل*',  
 
+     ]; 
+}else if (/^بحبك/i.test(m.text)) { 
+     responses = [ 
+       '*هممممممم*',  
 
+     ]; 
+   }else if (/^فلسطين$/i.test(m.text)) { 
+     responses = [ 
+'عاشششش تفهم'
+     ]; 
+   } else if (/^احبك$/i.test(m.text)) { 
+     responses = [ 
+'*هااااا لو كنت بوت لحبيتك*'
+     ]; 
+     }else if (/^عامل ايه|عامل اي|عامل اية$/i.test(m.text)) { 
+     responses = [ 
+       'الحمدالله',  
 
-┆ - عليك أن تستخدم الاوامر مع رمز
-┆ - مثل : ( . ) او ( # )
-┆ - ثم تكتب الأمر مثل* .اوامر*
-┆ - يجب أن تتأكد من استخدام الرموز
-┆ - و اذا لم يظهر لك رسائل البوت
-┆ - استخدم *.تصليح* او *.صلح*
-┆ - و لاظهار الأمر استخدم*".المهام*
-${vs} `, m) //wm, null, [['Menu', '#menu']], m) botones :V
+     ];
+     }else if (/^دز$/i.test(m.text)) { 
+     responses = [ 
+       '*انقلع✋🏻*'
+       '*انسان غبي*'
+        ,  
+     ];
+     }else if (/^وينه البوت$/i.test(m.text)) { 
+     responses = [ 
+       'هنا لو تحتاج شيء اكتـ/ـب المهام لاتنسي النقطة 💗',  
 
-}  
-return !0 
-}
-export default handler
+     ];
+     }else if (/^بوت|البوت$/i.test(m.text)) { 
+     responses = [ 
+       '*اسمي لور لو سمحت انسان غبي*',  
 
-function pickRandom(list) {
-    return list[Math.floor(Math.random() * list.length)]
-}
+     ];
+     }else if (/^اهلا$/i.test(m.text)) { 
+     responses = [ 
+       '*اهلين بس الافضل تحية الإسلام*',  
 
+     ]; 
+     }else if (/^مساء|مساء$/i.test(m.text)) { 
+     responses = [ 
+       'مساء الخير',  
+
+     ];
+     }else if (/^صباح|صباح$/ .test(m.text)) { 
+     responses = [ 
+       '*صباح الورد🧸*',  
+     ];
+       }else if (/^اوامر$/i.test(m.text)) { 
+     responses = [ 
+       '*اكتب المهام لاتنسى النقطة لو سمحت*',  
+     ];
+   }else if (/^لور|LOR$/i.test(m.text)) { 
+     responses = [ 
+'*عيونها💖*',
+'*نعمم لو تحتاج الأوامر اكتب المهام*',
+'*نعممم💖*',   ];
+            }else if (/^مرحبا$/i.test(m.text)) { 
+     responses = [ 
+       '*مرحبا🧸*',  
+     ];
+}else if (/^كلزق|كلزوء|كلزء|كل زق|كل تبن$/i.test(m.text)) { 
+     responses = [ 
+       '*عيببببب ✋🏻*',  
+     ];
+    
+   }
+   if (responses) { 
+     let randomIndex = Math.floor(Math.random() * responses.length); 
+     conn.reply(m.chat, responses[randomIndex], m); 
+   } 
+   return !0 
+ }; 
+
+ export default handler;
