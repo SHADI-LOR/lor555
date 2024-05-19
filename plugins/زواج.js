@@ -16,5 +16,5 @@ handler.help = ['formarpareja']
 handler.tags = ['main', 'fun']
 handler.command = ['زواج','حبايب']
 handler.group = true
-handler.limit = 1;
+handler.limit = 1
 export default handler
