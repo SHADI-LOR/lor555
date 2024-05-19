@@ -17,4 +17,5 @@ handler.tags = ['main', 'fun']
 handler.command = ['زواج','حبايب']
 handler.limit = 2
 handler.group = true
+handler.limit = 1
 export default handler
