@@ -5,7 +5,6 @@ let a = ps.getRandom()
 let b
 do b = ps.getRandom()
 while (b === a)
-  handler.limit = 2
 m.reply(`*تم اعلان زواج 💗💍*
 ▣─❧ ${toM(a)} العروسه ${toM(b)} العريس:
 * 💞😂 احمم احمم, لايقين على بعض*
@@ -16,6 +15,7 @@ mentions: [a, b]
 handler.help = ['formarpareja']
 handler.tags = ['main', 'fun']
 handler.command = ['زواج','حبايب']
+handler.limit = 2
 handler.group = true
 handler.limit = 1
 export default handler
