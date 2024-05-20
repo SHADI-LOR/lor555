@@ -44,8 +44,8 @@ let handler = m => m;
 }else if (/^بحبك/i.test(m.text)) { 
      responses = [ 
        '*هممممممم*',  
-      
-      
+
+     ]; 
    }else if (/^فلسطين$/i.test(m.text)) { 
      responses = [ 
 'عاشششش تفهم'
