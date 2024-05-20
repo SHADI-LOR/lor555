@@ -47,7 +47,7 @@ lenguajeGB.smsAntiIG1(), lenguajeGB.smsAntiTW1(), lenguajeGB.smsSOLOP1(), lengua
 let descripción = [ lenguajeGB.smsWel2(), lenguajeGB.smsDete2(), lenguajeGB.smsANivel2(), lenguajeGB.smsRestri2(), lenguajeGB.smsLlamar2(), lenguajeGB.smsAntiSp2(), lenguajeGB.smsModP2(), lenguajeGB.smsModAd2(), lenguajeGB.smsLect2(), lenguajeGB.smsTempo2(), lenguajeGB.smsStik2(), lenguajeGB.smsStickA2(), lenguajeGB.smsReacc2(), lenguajeGB.smsAudi2(), lenguajeGB.smsModHor2(), lenguajeGB.smsAntitoc2(), lenguajeGB.smsModOb2(), lenguajeGB.smsAntiEli2(), lenguajeGB.smsAntiInt2(), lenguajeGB.smsAntiE2(), lenguajeGB.smsAntiEE2(), lenguajeGB.smsAntiTT2(), lenguajeGB.smsAntiYT2(), lenguajeGB.smsAntiTEL2(), lenguajeGB.smsAntiFB2(),
 lenguajeGB.smsAntiIG2(), lenguajeGB.smsAntiTW2(), lenguajeGB.smsSOLOP2(), lenguajeGB.smsSOLOG2()]
 
-let comando = [ "ترحيب", "فعل-ردات" ,"اضافه-وطرد", "ممنوع-اتصالات", "سبام", "عام", "فقط-المشرفين", "القراءة-التلقائية", "temporal", "stickers", "autosticker", "رياكشن", "audios", "modohorny", "سبات", "antiviewonce", "حذف-تلقائي", "antifake", "روابط", "جميع-روابط", "روابط-تيكتوك", "روابط-يوتيوب", "روابط-تيلي", "روابط-فيس",
+let comando = [ "ترحيب", "فعل-ردات" ,"اضافه-وطرد", "ممنوع-اتصالات", "سبام", "عام", "فقط-المشرفين", "القراءة-التلقائية", "temporal", "stickers", "autosticker", "رياكشن", "audios", "modohorny", "سبات", "antiviewonce", "antifake", "روابط", "جميع-روابط", "روابط-تيكتوك", "روابط-يوتيوب", "روابط-تيلي", "روابط-فيس",
 "روابط-انستا", "روابط-تويتر", "pconly", "المستوي", "الخاص","grouponly"]
 
 let sections = Object.keys(titulo, nombre, descripción, comando).map((v, index) => ({ title: `${titulo[v]}`,
@@ -72,28 +72,6 @@ global.dfail('admin', m, conn)
 throw false
 }
 chat.welcome = isEnable
-break
-
-case 'فعل-ردات': case 'avisos':
-if (!m.isGroup) {
-if (!isOwner) {
-global.dfail('group', m, conn)
-throw false
-}
-} else if (!isAdmin) {
-global.dfail('admin', m, conn)
-throw false
-}
-chat.detect = isEnable
-break
-
-case 'antidelete': case 'antieliminar': case 'حذف-تلقائي':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.delete = isEnable
 break
 
 case 'عام': case 'publico':
@@ -458,11 +436,6 @@ ${m.isGroup ? `` : `${lenguajeGB.smsConfi9()}`}
 ✦ ${usedPrefix + command} رياكشن
 ✦ ${lenguajeGB.smsReacc2()}
 
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-
-✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? chat.antitoxic ? '✅' : '❌' : lenguajeGB.smsNoGg()}
-✦ ${usedPrefix + command} سبات
-✦ ${lenguajeGB.smsAntitoc2()}
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
