@@ -32,7 +32,7 @@ function handler(m, { groupMetadata }) {
 
 handler.help = ['formarpareja'];
 handler.tags = ['main', 'fun'];
-handler.command = ['عو', 'حبايب'];
+handler.command = ['زواج', 'حبايب'];
 handler.group = true;
 handler.limit = 1;
 
