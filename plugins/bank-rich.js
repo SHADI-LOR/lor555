@@ -28,19 +28,18 @@ ${sortedLim.slice(0, len).map(({ jid, limit }, i) => `〄│ ${participants.some
 ${sortedLevel.slice(0, len).map(({ jid, level }, i) => `〄│ ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} الـــرانـــك ${level}`).join`\n`}
 
 
-〄│ الــمــطــور :ㅤㅤ〘 ${Shadow} 〙
 `.trim()
   conn.sendMessage(m.chat,{ image :{ url : "https://telegra.ph/file/832bc424cefdc3818d548.jpg" } , caption : text , mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}, { quoted: m })
 
   return conn.sendMessage(m.chat, {
 react: {
-  text: '🪷',
+  text: '👑',
   key: m.key,
 }})
 }
 handler.help = ['top']
 handler.tags = ['xp']
-handler.command = ['الاغني','السيرفر','التصنيف'] 
+handler.command = ['الملوك','السيرفر','التصنيف'] 
 handler.limit = 2
 
 
