@@ -45,6 +45,9 @@ let handler = m => m;
      responses = [ 
        '*هممممممم*',  
 
+   }else if (/^تسلمي|تسلم$/i.test(m.text)) { 
+     responses = [ 
+'*الله يسلمك💖*''
      ]; 
    }else if (/^فلسطين$/i.test(m.text)) { 
      responses = [ 
