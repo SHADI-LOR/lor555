@@ -1,4 +1,4 @@
-const xpperlimit = 350;
+const xpperlimit = 320;
 const handler = async (m, {conn, command, args}) => {
   let count = command.replace(/^شراء/i, '');
   count = count ? /الكل/i.test(count) ? Math.floor(global.db.data.users[m.sender].exp / xpperlimit) : parseInt(count) : args[0] ? parseInt(args[0]) : 1;
@@ -11,7 +11,7 @@ const handler = async (m, {conn, command, args}) => {
 ⌯ الكيمة : + ${count} 💎 
 ⌯ الفلوس : -${xpperlimit * count} XP
 └──────────────`, m);
-  } else conn.reply(m.chat, `[❣️]~ اسفة معكش خبرة عشان تشتري ${count} ماس 💎`, m);
+  } else conn.reply(m.chat, `[❣️]~ اسفة ماعندك خبرة عشان تشتري ${count} ماس 💎`, m);
 return conn.sendMessage(m.chat, {
 react: {
   text: '💎',
