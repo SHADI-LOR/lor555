@@ -12,7 +12,7 @@ m.reply(`[👋]⌯ نشوفك على خير ان شاء الله`)
 
 handler.help = ['S H A D O W']
 handler.tags = ['S H A D O W']
-handler.command = ['طرد' 'طلعيه'] 
+handler.command = ['طرد'] 
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
