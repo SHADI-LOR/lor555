@@ -9,7 +9,7 @@ conn.sendFile(m.chat, neko, 'error.jpg', `اونيي تشان~ 🐾💗`, m)
 handler.command = /^(كيوت)$/i
 handler.tags = ['anime']
 handler.help = ['neko']
-handler.limit = 5
+handler.limit = 1
 export default handler
 function pickRandom(list) {
 return list[Math.floor(Math.random() * list.length)]
