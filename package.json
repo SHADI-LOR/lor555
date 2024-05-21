@@ -28,7 +28,8 @@
 "bugs": {
 "url": "https://github.com/GataNina-Li/GataBot-MD/issues" },
 "license": "GPL-3.0-or-later",
-"dependencies": {
+"dependencies":{
+"firebase-admin": "^12.0.0",
 "@whiskeysockets/baileys": "^6.5.0",
 "@adiwajshing/keyed-db": "^0.2.4",
 "@bochilteam/scraper": "^4.2.4",
