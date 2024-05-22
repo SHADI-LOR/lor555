@@ -4,7 +4,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
     conn.tebakbendera = conn.tebakbendera ? conn.tebakbendera : {}
     let id = m.chat
     if (id in conn.tebakbendera) {
-        conn.reply(m.chat, 'في سؤال عشان تبقا عارف', conn.tebakbendera[id][0])
+        conn.reply(m.chat, 'في سؤال جاوب عليه', conn.tebakbendera[id][0])
         throw false
     }
     let src = await (await fetch(`https://raw.githubusercontent.com/socona12/-/main/Src/${command}.json`)).json()
@@ -13,10 +13,6 @@ let handler = async (m, { conn, command, usedPrefix }) => {
 ⟣⟤ المده *${(timeout / 1000).toFixed(2)}* ثانيه
 ⟣⟤ استخدم ${usedPrefix}استسلم للاستسلام
 ⟣⟤ الجائزه: ${poin} خبره
-⟣┈┈┈┈┈┈┈┈┈┈┈┈┈┈⟢
-⚡ 𝑺𝑶𝑲𝑼𝑵𝑨 𝑨𝑵𝑫 𝑽𝑬𝑵𝑶𝑴 ⚡
-🌸 𝑻𝑶𝑼𝑲𝑨 𝑩𝑶𝑻 𝑴𝑫 🌸
-⟣┈┈┈┈┈┈┈┈┈┈┈┈┈┈⟢
      `.trim()
     conn.tebakbendera[id] = [
         await conn.sendFile(m.chat, json.img, '', caption, m),
