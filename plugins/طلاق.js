@@ -15,14 +15,7 @@ while (b === a)
     user.limit -= 2;
 
     // Send confirmation message
-    m.reply(`تم خصم 2💎 من حسابك. رصيدك الحالي: ${user.limit} عملة.`);
-
-    let ps = groupMetadata.participants.map(v => v.id);
-    let a = ps[Math.floor(Math.random() * ps.length)];
-    let b;
-    do {
-        b = ps[Math.floor(Math.random() * ps.length)];
-    } while (b === a);
+ m.reply(`تم خصم 2💎 من حسابك. رصيدك الحالي: ${user.limit} عملة.`);
 m.reply(`*${toM(a)} , ${toM(b)}*
 *انتم ما تناسبون لبعض*
  \n*تم طلاقكم 👩🏼‍⚖️*`, null, {
