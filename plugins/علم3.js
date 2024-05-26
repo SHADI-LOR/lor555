@@ -1,5 +1,5 @@
 let timeout = 60000
-let poin = 500
+let poin = 500000
 let handler = async (m, { conn, command, usedPrefix }) => {
     conn.tebakbendera = conn.tebakbendera ? conn.tebakbendera : {}
     let id = m.chat
