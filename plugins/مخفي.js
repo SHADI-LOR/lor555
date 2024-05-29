@@ -21,6 +21,7 @@ await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id })
 handler.help = ['hidetag']
 handler.tags = ['group']
 handler.command = ['مخفي', 'وهمي'] 
+handler.money = 10;
 handler.group = true
 handler.admin = true
 
