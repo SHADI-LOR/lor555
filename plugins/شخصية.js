@@ -25,7 +25,7 @@ conn.reply(m.chat, personalidad, m, { mentions: conn.parseMention(personalidad) 
 handler.help = ['personalidad *<nombre>*']
 handler.tags = ['fun']
 handler.command = /^شخصية|الشخصيه|الشخصية|شخصيه/i
-
+handler.limit = 2;
 export default handler 
 
 function pickRandom(list) {
