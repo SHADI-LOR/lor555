@@ -9,7 +9,7 @@ const handler = async (m, {conn, command, args}) => {
     conn.reply(m.chat, `
 ┌─「 الدفع 」
 ⌯ الكيمة : + ${joincount} 💎 
-⌯ الفلوس : -${xppermoney * count} XP
+⌯ الفلوس : -${money * count} XP
 └──────────────`, m);
   } else conn.reply(m.chat, `[❣️]~ اسفة ماعندك خبرة عشان تشتري ${count} ماس 💎`, m);
 return conn.sendMessage(m.chat, {
