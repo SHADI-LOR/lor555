@@ -8,8 +8,8 @@ const handler = async (m, {conn, command, args}) => {
     global.db.data.users[m.sender].money += count;
     conn.reply(m.chat, `
 ┌─「 الدفع 」
-⌯ الكيمة : + ${count} 💎 
-⌯ الفلوس : -${xpperlimit * count} XP
+⌯ الكيمة : + ${joincount} 💎 
+⌯ الفلوس : -${xppermoney * count} XP
 └──────────────`, m);
   } else conn.reply(m.chat, `[❣️]~ اسفة ماعندك خبرة عشان تشتري ${count} ماس 💎`, m);
 return conn.sendMessage(m.chat, {
