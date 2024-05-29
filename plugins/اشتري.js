@@ -1,11 +1,11 @@
-const xpperlimit = 320;
+const xpperlimit = 1000;
 const handler = async (m, {conn, command, args}) => {
   let count = command.replace(/^شراء/i, '');
   count = count ? /الكل/i.test(count) ? Math.floor(global.db.data.users[m.sender].exp / xpperlimit) : parseInt(count) : args[0] ? parseInt(args[0]) : 1;
   count = Math.max(1, count);
-  if (global.db.data.users[m.sender].exp >= xpperlimit * count) {
-    global.db.data.users[m.sender].exp -= xpperlimit * count;
-    global.db.data.users[m.sender].limit += count;
+  if (global.db.data.users[m.sender].joincount >= xpperlimit * count) {
+    global.db.data.users[m.sender].joincount -= xpperlimit * count;
+    global.db.data.users[m.sender].money += count;
     conn.reply(m.chat, `
 ┌─「 الدفع 」
 ⌯ الكيمة : + ${count} 💎 
@@ -20,7 +20,7 @@ react: {
 };
 handler.help = ['S H A D O W'];
 handler.tags = ['S H A D O W'];
-handler.command = ['شراء', 'شراءالكل'];
+handler.command = ['اشتري', 'اشترى'];
 
 handler.disabled = false;
 
